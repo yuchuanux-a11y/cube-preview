@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/cube-preview/cube.svg" type="image/svg+xml" />
+    <title>Cube UI Component Examples</title>
+    <script>
+      (function () {
+        var key = 'cube-example-theme';
+        var stored = localStorage.getItem(key);
+        var theme =
+          stored === 'light' || stored === 'dark'
+            ? stored
+            : window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light';
+        document.documentElement.classList.add(theme);
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.style.colorScheme = theme;
+      })();
+    </script>
+    <script type="module" crossorigin src="/cube-preview/assets/index-BkV1Sq-z.js"></script>
+    <link rel="stylesheet" crossorigin href="/cube-preview/assets/index-DOIczkv9.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
