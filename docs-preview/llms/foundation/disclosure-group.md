@@ -2,14 +2,9 @@
 
 Container that manages multiple Disclosure items with coordinated expanded states
 
-| 项目 | 内容 |
-| --- | --- |
-| 包 | `@heroui/react` |
-| 分层 | Foundation |
-| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
-| 稳定 ID | 未登记 |
-
-检索：DisclosureGroup、disclosure-group。
+- 分层：Foundation
+- 包：`@heroui/react`
+- 状态：建设中
 
 ## Import
 
@@ -17,136 +12,30 @@ Container that manages multiple Disclosure items with coordinated expanded state
 import { DisclosureGroup } from "@heroui/react";
 ```
 
-## Preview
-
-The docs page renders a live preview of the real component.
-
-## 适用
-
-建设中。设计 registry 没有这条用法。
-
-## 不适用
-
-建设中。
-
 ## Props
 
-Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+## 属性
 
-| Prop | Type | Required | Default | Description |
+| 属性 | 类型 | 必填 | 默认 | 说明 |
 | --- | --- | --- | --- | --- |
-| `allowsMultipleExpanded` | `boolean` | No | `—` | Whether multiple items can be expanded at the same time. |
-| `children` | `ChildrenOrFunction<DisclosureGroupRenderProps>` | No | `—` | The children of the component. A function may be provided to alter the children based on component state. |
-| `className` | `ClassNameOrFunction<DisclosureGroupRenderProps>` | No | `'react-aria-DisclosureGroup'` | The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the element. A function may be provided to compute the class based on component state. |
-| `defaultExpandedKeys` | `Iterable<Key>` | No | `—` | The initial expanded keys in the group (uncontrolled). |
-| `expandedKeys` | `Iterable<Key>` | No | `—` | The currently expanded keys in the group (controlled). |
-| `isDisabled` | `boolean` | No | `—` | Whether all items are disabled. |
-| `onExpandedChange` | `(keys: Set<Key>) => any` | No | `—` | Handler that is called when items are expanded or collapsed. |
-| `render` | `DOMRenderFunction<"div", DisclosureGroupRenderProps>` | No | `—` | Overrides the default DOM element with a custom render function. This allows rendering existing components with built-in styles and behaviors such as router links, animation libraries, and pre-styled components. Requirements: - You must render the expected element type (e.g. if `<button>` is expected, you cannot render an `<a>`). - Only a single root DOM element can be rendered (no fragments). - You must pass through props and ref to the underlying DOM element, merging with your own prop as appropriate. |
-| `style` | `StyleOrFunction<DisclosureGroupRenderProps>` | No | `—` | The inline [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) for the element. A function may be provided to compute the style based on component state. |
+| `allowsMultipleExpanded` | `boolean` | 否 | `—` | Whether multiple items can be expanded at the same time. |
+| `children` | `ChildrenOrFunction<DisclosureGroupRenderProps>` | 否 | `—` | The children of the component. A function may be provided to alter the children based on component state. |
+| `className` | `ClassNameOrFunction<DisclosureGroupRenderProps>` | 否 | `'react-aria-DisclosureGroup'` | The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the element. A function may be provided to compute the class based on component state. |
+| `defaultExpandedKeys` | `Iterable<Key>` | 否 | `—` | The initial expanded keys in the group (uncontrolled). |
+| `expandedKeys` | `Iterable<Key>` | 否 | `—` | The currently expanded keys in the group (controlled). |
+| `isDisabled` | `boolean` | 否 | `—` | Whether all items are disabled. |
+| `render` | `DOMRenderFunction<"div", DisclosureGroupRenderProps>` | 否 | `—` | Overrides the default DOM element with a custom render function. This allows rendering existing components with built-in styles and behaviors such as router links, animation libraries, and pre-styled components. Requirements: - You must render the expected element type (e.g. if `<button>` is expected, you cannot render an `<a>`). - Only a single root DOM element can be rendered (no fragments). - You must pass through props and ref to the underlying DOM element, merging with your own prop as appropriate. |
+| `style` | `StyleOrFunction<DisclosureGroupRenderProps>` | 否 | `—` | The inline [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) for the element. A function may be provided to compute the style based on component state. |
 
-## Token
+<details className="not-prose my-6">
+<summary className="cursor-pointer text-sm text-fd-muted-foreground">无障碍与事件</summary>
 
-主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
+| 属性 | 类型 | 必填 | 默认 | 说明 |
+| --- | --- | --- | --- | --- |
+| `onExpandedChange` | `(keys: Set<Key>) => any` | 否 | `—` | Handler that is called when items are expanded or collapsed. |
 
-组件级 token 对照建设中。
+</details>
 
 ## Figma
 
-[Open DisclosureGroup in Figma](https://www.figma.com/design/D5ZApigd5hFmvI54TkJlAh/Cube-Design-System-for-Web?node-id=17293-43646)
-
-[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/disclosure-group.md)
-
-## Example source
-
-Demo files may import `@components/...`. Apps should use the package path in Import.
-
-```tsx
-'use client';
-
-import {QrCode} from "@gravity-ui/icons";
-import {Button, cn, Disclosure, DisclosureGroup, Separator} from "@heroui/react";
-import React from "react";
-
-export function Basic() {
-  const [expandedKeys, setExpandedKeys] = React.useState(new Set<string | number>(["preview"]));
-
-  return (
-    <div className="w-full max-w-md">
-      <div className="flex flex-col gap-4 bg-transparent p-4">
-        <DisclosureGroup expandedKeys={expandedKeys} onExpandedChange={setExpandedKeys}>
-          <Disclosure aria-label="Preview HeroUI Native" id="preview">
-            <Disclosure.Heading>
-              <Button
-                slot="trigger"
-                variant={expandedKeys.has("preview") ? "secondary" : "tertiary"}
-                className={cn("w-full border-none", {
-                  "bg-transparent": !expandedKeys.has("preview"),
-                })}
-              >
-                <div className="flex w-full items-center justify-start gap-2">
-                  <QrCode />
-                  Preview HeroUI Native
-                </div>
-                <Disclosure.Indicator className="text-muted" />
-              </Button>
-            </Disclosure.Heading>
-            <Disclosure.Content>
-              <Disclosure.Body className="mx-2 flex flex-col items-center gap-2 p-4 text-center">
-                <p className="text-sm text-muted">
-                  Scan this QR code with your camera app to preview the HeroUI native components.
-                </p>
-                <img
-                  alt="Expo Go QR Code"
-                  className="aspect-square w-full max-w-54 object-cover"
-                  src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/images/qr-code-native.png"
-                />
-                <p className="text-sm text-muted">Expo must be installed on your device.</p>
-                <Button className="mt-4" variant="primary">
-                  Preview on Expo Go
-                </Button>
-              </Disclosure.Body>
-            </Disclosure.Content>
-          </Disclosure>
-          <Separator className="my-2" />
-          <Disclosure id="download">
-            <Disclosure.Heading aria-label="Download HeroUI Native">
-              <Button
-                slot="trigger"
-                variant={expandedKeys.has("download") ? "secondary" : "tertiary"}
-                className={cn("w-full border-none", {
-                  "bg-transparent": !expandedKeys.has("download"),
-                })}
-              >
-                <div className="flex w-full items-center justify-start gap-2">
-                  Download App
-                </div>
-                <Disclosure.Indicator className="text-muted" />
-              </Button>
-            </Disclosure.Heading>
-            <Disclosure.Content>
-              <Disclosure.Body className="mx-2 flex flex-col items-center gap-2 p-4 text-center">
-                <p className="text-sm text-muted">
-                  Download the HeroUI native app to explore our mobile components directly on your
-                  device.
-                </p>
-                <img
-                  alt="App Store QR Code"
-                  className="aspect-square w-full max-w-54 object-cover"
-                  src="https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/images/qr-code-native.png"
-                />
-                <p className="text-sm text-muted">Available on iOS and Android devices.</p>
-                <Button className="mt-4" variant="primary">
-                  Download on App Store
-                </Button>
-              </Disclosure.Body>
-            </Disclosure.Content>
-          </Disclosure>
-        </DisclosureGroup>
-      </div>
-    </div>
-  );
-}
-
-export { Basic as Preview };
-```
+https://www.figma.com/design/D5ZApigd5hFmvI54TkJlAh/Cube-Design-System-for-Web?node-id=17293-43646

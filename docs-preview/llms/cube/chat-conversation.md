@@ -2,15 +2,9 @@
 
 Cube component `ChatConversation` from `@bosagent/cube-ui/chat-conversation`.
 
-| 项目 | 内容 |
-| --- | --- |
-| 包 | `@bosagent/cube-ui/chat-conversation` |
-| 分层 | Cube |
-| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
-| 稳定 ID | 未登记 |
-| 源码 | `packages/cube-ui/src/components/chat-conversation` |
-
-检索：ChatConversation、chat-conversation。
+- 分层：Cube
+- 包：`@bosagent/cube-ui/chat-conversation`
+- 状态：建设中
 
 ## Import
 
@@ -19,29 +13,17 @@ import { ChatConversation } from "@bosagent/cube-ui/chat-conversation";
 import { ChatConversation } from "@bosagent/cube-ui";
 ```
 
-## Preview
-
-The docs page renders a live preview of the real component.
-
-## 适用
-
-建设中。设计 registry 没有这条用法。
-
-## 不适用
-
-建设中。
-
 ## Props
 
-Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+## 属性
 
-| Prop | Type | Required | Default | Description |
+| 属性 | 类型 | 必填 | 默认 | 说明 |
 | --- | --- | --- | --- | --- |
-| `children` | `ReactNode` | Yes | `—` | — |
-| `initial` | `"smooth" \| "instant"` | No | `—` | — |
-| `resize` | `"smooth" \| "instant"` | No | `—` | — |
-| `className` | `string` | No | `—` | — |
-| `slot` | `string` | No | `—` | — |
+| `children` | `ReactNode` | 是 | `—` | — |
+| `initial` | `"smooth" \| "instant"` | 否 | `—` | — |
+| `resize` | `"smooth" \| "instant"` | 否 | `—` | — |
+| `className` | `string` | 否 | `—` | — |
+| `slot` | `string` | 否 | `—` | — |
 
 ## Parts
 
@@ -49,103 +31,6 @@ Generated from the TypeScript type of the root export. DOM attributes inherited 
 - `ChatConversation.ScrollAnchor`
 - `ChatConversation.ScrollButton`
 
-## Token
-
-主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
-
-组件级 token 对照建设中。
-
 ## 画廊
 
-[ChatConversation](https://yuchuanux-a11y.github.io/cube-preview/#ChatConversation)
-
-公开画廊的 Web Demo。哈希是示例目录里的组件名。
-
-[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-conversation.md)
-
-## Example source
-
-Demo files may import `@components/...`. Apps should use the package path in Import.
-
-```tsx
-'use client';
-
-import { ChainOfThought } from '@components/chain-of-thought';
-import { ChatConversation } from '@components/chat-conversation';
-import { ChatMessage } from '@components/chat-message';
-import { Markdown } from '@components/markdown';
-
-const MESSAGES = [
-  {
-    id: '1',
-    role: 'user' as const,
-    text: 'How does auto-scroll work in chat UIs?',
-  },
-  {
-    id: '2',
-    role: 'assistant' as const,
-    text: `Stick-to-bottom keeps the viewport pinned to the latest message while you stream.
-
-It also leaves the user in control: once they scroll away from the bottom, new content can arrive without snapping the viewport away from what they are reading.`,
-  },
-  {
-    id: '3',
-    role: 'user' as const,
-    text: 'What happens when the assistant is doing multiple steps?',
-  },
-  {
-    id: '4',
-    role: 'assistant' as const,
-    text: `You can combine the conversation viewport with reasoning and tool UI so the whole exchange remains in one scrollable surface.`,
-    trace: true,
-  },
-];
-
-export function Default() {
-  return (
-    <div className="flex h-[520px] w-[640px] flex-col overflow-hidden">
-      <ChatConversation className="flex-1">
-        <ChatConversation.Content className="max-w-[714px] flex-col gap-8 px-4 pt-8 pb-8">
-          {MESSAGES.map((message) =>
-            message.role === 'user' ? (
-              <ChatMessage.User key={message.id}>
-                <ChatMessage.Bubble>
-                  <ChatMessage.Content>{message.text}</ChatMessage.Content>
-                </ChatMessage.Bubble>
-              </ChatMessage.User>
-            ) : (
-              <ChatMessage.Assistant key={message.id}>
-                <ChatMessage.Avatar show alt="Assistant" fallback="AI" />
-                <ChatMessage.Body>
-                  <ChatMessage.Content>
-                    <Markdown>{message.text}</Markdown>
-                  </ChatMessage.Content>
-                  {'trace' in message && message.trace ? (
-                    <ChainOfThought defaultExpanded>
-                      <ChainOfThought.Trigger>
-                        Thought for 2s
-                      </ChainOfThought.Trigger>
-                      <ChainOfThought.Content>
-                        <ChainOfThought.Steps>
-                          <ChainOfThought.Step label="Check scroll behavior">
-                            Verified the viewport remains pinned while the
-                            assistant streams.
-                          </ChainOfThought.Step>
-                          <ChainOfThought.Step label="Compose response">
-                            Added reasoning UI inline with the assistant message
-                            body.
-                          </ChainOfThought.Step>
-                        </ChainOfThought.Steps>
-                      </ChainOfThought.Content>
-                    </ChainOfThought>
-                  ) : null}
-                </ChatMessage.Body>
-              </ChatMessage.Assistant>
-            )
-          )}
-        </ChatConversation.Content>
-      </ChatConversation>
-    </div>
-  );
-}
-```
+https://yuchuanux-a11y.github.io/cube-preview/#ChatConversation

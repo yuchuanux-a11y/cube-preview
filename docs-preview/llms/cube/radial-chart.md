@@ -2,15 +2,9 @@
 
 Cube component `RadialChart` from `@bosagent/cube-ui/radial-chart`.
 
-| 项目 | 内容 |
-| --- | --- |
-| 包 | `@bosagent/cube-ui/radial-chart` |
-| 分层 | Cube |
-| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
-| 稳定 ID | 未登记 |
-| 源码 | `packages/cube-ui/src/components/radial-chart` |
-
-检索：RadialChart、radial-chart。
+- 分层：Cube
+- 包：`@bosagent/cube-ui/radial-chart`
+- 状态：建设中
 
 ## Import
 
@@ -18,35 +12,23 @@ Cube component `RadialChart` from `@bosagent/cube-ui/radial-chart`.
 import { RadialChart } from "@bosagent/cube-ui/radial-chart";
 ```
 
-## Preview
-
-The docs page renders a live preview of the real component.
-
-## 适用
-
-建设中。设计 registry 没有这条用法。
-
-## 不适用
-
-建设中。
-
 ## Props
 
-Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+## 属性
 
-| Prop | Type | Required | Default | Description |
+| 属性 | 类型 | 必填 | 默认 | 说明 |
 | --- | --- | --- | --- | --- |
-| `children` | `ReactNode` | Yes | `—` | — |
-| `data` | `Record<string, string \| number>[]` | Yes | `—` | Chart data — array of objects. Each entry becomes a concentric ring. |
-| `barSize` | `number` | No | `10` | Bar thickness in pixels. |
-| `endAngle` | `number` | No | `-270` | End angle in degrees. |
-| `height` | `number` | No | `300` | Chart height in pixels. |
-| `innerRadius` | `string \| number` | No | `"30%"` | Inner radius of the bar area. |
-| `outerRadius` | `string \| number` | No | `"80%"` | Outer radius of the bar area. |
-| `startAngle` | `number` | No | `90` | Start angle in degrees. |
-| `width` | `` number \| `${number}%` `` | No | `"100%"` | Chart width in pixels or percentage string. |
-| `className` | `string` | No | `—` | — |
-| `slot` | `string` | No | `—` | — |
+| `children` | `ReactNode` | 是 | `—` | — |
+| `data` | `Record<string, string \| number>[]` | 是 | `—` | Chart data — array of objects. Each entry becomes a concentric ring. |
+| `barSize` | `number` | 否 | `10` | Bar thickness in pixels. |
+| `endAngle` | `number` | 否 | `-270` | End angle in degrees. |
+| `height` | `number` | 否 | `300` | Chart height in pixels. |
+| `innerRadius` | `string \| number` | 否 | `"30%"` | Inner radius of the bar area. |
+| `outerRadius` | `string \| number` | 否 | `"80%"` | Outer radius of the bar area. |
+| `startAngle` | `number` | 否 | `90` | Start angle in degrees. |
+| `width` | `` number \| `${number}%` `` | 否 | `"100%"` | Chart width in pixels or percentage string. |
+| `className` | `string` | 否 | `—` | — |
+| `slot` | `string` | 否 | `—` | — |
 
 ## Parts
 
@@ -56,123 +38,6 @@ Generated from the TypeScript type of the root export. DOM attributes inherited 
 - `RadialChart.Tooltip`
 - `RadialChart.TooltipContent`
 
-## Token
-
-主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
-
-组件级 token 对照建设中。
-
 ## 画廊
 
-[RadialChart](https://yuchuanux-a11y.github.io/cube-preview/#RadialChart)
-
-公开画廊的 Web Demo。哈希是示例目录里的组件名。
-
-[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/radial-chart.md)
-
-## Example source
-
-Demo files may import `@components/...`. Apps should use the package path in Import.
-
-```tsx
-'use client';
-
-import type { ReactNode } from 'react';
-import { ChartTooltip } from '@components/chart-tooltip';
-import { RadialChart } from '@components/radial-chart';
-import { Card } from '@heroui/react';
-
-const energyData = [
-  {
-    fill: 'var(--chart-4)',
-    name: 'Calories',
-    value: 200,
-    valueText: '1,623/2,000 kcal',
-  },
-  {
-    fill: 'var(--chart-3)',
-    name: 'Steps',
-    value: 350,
-    valueText: '8,328/10,000 steps',
-  },
-  {
-    fill: 'var(--chart-2)',
-    name: 'Exercise',
-    value: 250,
-    valueText: '25/120 min',
-  },
-];
-
-function RadialTooltip({
-  payload,
-  valueFormatter,
-}: {
-  active?: boolean;
-  payload?: Array<{
-    name?: string;
-    payload?: Record<string, unknown>;
-    value?: number | string;
-  }>;
-  valueFormatter?: (value: number | string) => ReactNode;
-}) {
-  const entry = payload?.[0];
-
-  if (!entry?.payload) return null;
-
-  const name = (entry.payload['name'] as string) ?? entry.name;
-  const value = (entry.payload['value'] as number) ?? entry.value;
-  const fill = entry.payload['fill'] as string;
-
-  return (
-    <ChartTooltip>
-      <ChartTooltip.Item>
-        <ChartTooltip.Indicator color={fill} />
-        <ChartTooltip.Label>{name}</ChartTooltip.Label>
-        <ChartTooltip.Value>
-          {valueFormatter && value != null ? valueFormatter(value) : value}
-        </ChartTooltip.Value>
-      </ChartTooltip.Item>
-    </ChartTooltip>
-  );
-}
-
-export function Default() {
-  return (
-    <Card className="w-[380px] rounded-2xl">
-      <Card.Header>
-        <Card.Title className="text-base">Energy Activity</Card.Title>
-      </Card.Header>
-      <Card.Content className="flex items-center gap-4">
-        <div className="flex flex-1 flex-col gap-2 self-start">
-          {energyData.map((item) => (
-            <div key={item.name} className="flex flex-col">
-              <span className="text-xs text-muted">{item.name}</span>
-              <span className="text-sm font-semibold text-foreground">
-                {item.valueText}
-              </span>
-            </div>
-          ))}
-        </div>
-        <div className="relative shrink-0">
-          <RadialChart
-            data={energyData}
-            height={200}
-            innerRadius="40%"
-            outerRadius="100%"
-            width={200}
-          >
-            <RadialChart.Bar background cornerRadius={12} dataKey="value" />
-            <RadialChart.Tooltip content={<RadialTooltip />} />
-          </RadialChart>
-          <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center">
-            <span className="text-[10px] text-muted">Calories</span>
-            <span className="text-sm font-semibold text-foreground">
-              700 kcal
-            </span>
-          </div>
-        </div>
-      </Card.Content>
-    </Card>
-  );
-}
-```
+https://yuchuanux-a11y.github.io/cube-preview/#RadialChart

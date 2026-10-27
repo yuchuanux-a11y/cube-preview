@@ -2,15 +2,9 @@
 
 Cube component `HoloCard` from `@bosagent/cube-ui/holo-card`.
 
-| 项目 | 内容 |
-| --- | --- |
-| 包 | `@bosagent/cube-ui/holo-card` |
-| 分层 | Cube |
-| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
-| 稳定 ID | 未登记 |
-| 源码 | `packages/cube-ui/src/components/holo-card` |
-
-检索：HoloCard、holo-card。
+- 分层：Cube
+- 包：`@bosagent/cube-ui/holo-card`
+- 状态：建设中
 
 ## Import
 
@@ -19,84 +13,80 @@ import { HoloCard } from "@bosagent/cube-ui/holo-card";
 import { HoloCard } from "@bosagent/cube-ui";
 ```
 
-## Preview
-
-The docs page renders a live preview of the real component.
-
-## 适用
-
-建设中。设计 registry 没有这条用法。
-
-## 不适用
-
-建设中。
-
 ## Props
 
-Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+## 属性
 
-| Prop | Type | Required | Default | Description |
+| 属性 | 类型 | 必填 | 默认 | 说明 |
 | --- | --- | --- | --- | --- |
-| `children` | `ReactNode` | Yes | `—` | — |
-| `about` | `string` | No | `—` | — |
-| `accessKey` | `string` | No | `—` | — |
-| `aria-activedescendant` | `string` | No | `—` | — |
-| `aria-atomic` | `Booleanish` | No | `—` | — |
-| `aria-autocomplete` | `"none" \| "list" \| "both" \| "inline"` | No | `—` | — |
-| `aria-braillelabel` | `string` | No | `—` | — |
-| `aria-brailleroledescription` | `string` | No | `—` | — |
-| `aria-busy` | `Booleanish` | No | `—` | — |
-| `aria-checked` | `boolean \| "true" \| "false" \| "mixed"` | No | `—` | — |
-| `aria-colcount` | `number` | No | `—` | — |
-| `aria-colindex` | `number` | No | `—` | — |
-| `aria-colindextext` | `string` | No | `—` | — |
-| `aria-colspan` | `number` | No | `—` | — |
-| `aria-controls` | `string` | No | `—` | — |
-| `aria-current` | `boolean \| "true" \| "false" \| "time" \| "page" \| "date" \| "step" \| "location"` | No | `—` | — |
-| `aria-describedby` | `string` | No | `—` | — |
-| `aria-description` | `string` | No | `—` | — |
-| `aria-details` | `string` | No | `—` | — |
-| `aria-disabled` | `Booleanish` | No | `—` | — |
-| `aria-dropeffect` | `"link" \| "none" \| "copy" \| "move" \| "execute" \| "popup"` | No | `—` | — |
-| `aria-errormessage` | `string` | No | `—` | — |
-| `aria-expanded` | `Booleanish` | No | `—` | — |
-| `aria-flowto` | `string` | No | `—` | — |
-| `aria-grabbed` | `Booleanish` | No | `—` | — |
-| `aria-haspopup` | `boolean \| "true" \| "false" \| "dialog" \| "menu" \| "grid" \| "listbox" \| "tree"` | No | `—` | — |
-| `aria-hidden` | `Booleanish` | No | `—` | — |
-| `aria-invalid` | `boolean \| "true" \| "false" \| "grammar" \| "spelling"` | No | `—` | — |
-| `aria-keyshortcuts` | `string` | No | `—` | — |
-| `aria-label` | `string` | No | `—` | — |
-| `aria-labelledby` | `string` | No | `—` | — |
-| `aria-level` | `number` | No | `—` | — |
-| `aria-live` | `"off" \| "assertive" \| "polite"` | No | `—` | — |
-| `aria-modal` | `Booleanish` | No | `—` | — |
-| `aria-multiline` | `Booleanish` | No | `—` | — |
-| `aria-multiselectable` | `Booleanish` | No | `—` | — |
-| `aria-orientation` | `"horizontal" \| "vertical"` | No | `—` | — |
-| `aria-owns` | `string` | No | `—` | — |
-| `aria-placeholder` | `string` | No | `—` | — |
-| `aria-posinset` | `number` | No | `—` | — |
-| `aria-pressed` | `boolean \| "true" \| "false" \| "mixed"` | No | `—` | — |
-| `aria-readonly` | `Booleanish` | No | `—` | — |
-| `aria-relevant` | `"text" \| "all" \| "additions" \| "additions removals" \| "additions text" \| "removals" \| "removals additions" \| "removals text" \| "text additions" \| "text removals"` | No | `—` | — |
-| `aria-required` | `Booleanish` | No | `—` | — |
-| `aria-roledescription` | `string` | No | `—` | — |
-| `aria-rowcount` | `number` | No | `—` | — |
-| `aria-rowindex` | `number` | No | `—` | — |
-| `aria-rowindextext` | `string` | No | `—` | — |
-| `aria-rowspan` | `number` | No | `—` | — |
-| `aria-selected` | `Booleanish` | No | `—` | — |
-| `aria-setsize` | `number` | No | `—` | — |
-| `aria-sort` | `"none" \| "ascending" \| "descending" \| "other"` | No | `—` | — |
-| `aria-valuemax` | `number` | No | `—` | — |
-| `aria-valuemin` | `number` | No | `—` | — |
-| `aria-valuenow` | `number` | No | `—` | — |
-| `aria-valuetext` | `string` | No | `—` | — |
-| `autoCapitalize` | `"off" \| "none" \| "on" \| "sentences" \| "words" \| "characters" \| (string & {})` | No | `—` | — |
-| `autoCorrect` | `string` | No | `—` | — |
-| `autoFocus` | `boolean` | No | `—` | — |
-| `autoSave` | `string` | No | `—` | — |
+| `children` | `ReactNode` | 是 | `—` | — |
+| `about` | `string` | 否 | `—` | — |
+| `accessKey` | `string` | 否 | `—` | — |
+| `autoCapitalize` | `"off" \| "none" \| "on" \| "sentences" \| "words" \| "characters" \| (string & {})` | 否 | `—` | — |
+| `autoCorrect` | `string` | 否 | `—` | — |
+| `autoFocus` | `boolean` | 否 | `—` | — |
+| `autoSave` | `string` | 否 | `—` | — |
+
+<details className="not-prose my-6">
+<summary className="cursor-pointer text-sm text-fd-muted-foreground">无障碍与事件</summary>
+
+| 属性 | 类型 | 必填 | 默认 | 说明 |
+| --- | --- | --- | --- | --- |
+| `aria-activedescendant` | `string` | 否 | `—` | — |
+| `aria-atomic` | `Booleanish` | 否 | `—` | — |
+| `aria-autocomplete` | `"none" \| "list" \| "both" \| "inline"` | 否 | `—` | — |
+| `aria-braillelabel` | `string` | 否 | `—` | — |
+| `aria-brailleroledescription` | `string` | 否 | `—` | — |
+| `aria-busy` | `Booleanish` | 否 | `—` | — |
+| `aria-checked` | `boolean \| "true" \| "false" \| "mixed"` | 否 | `—` | — |
+| `aria-colcount` | `number` | 否 | `—` | — |
+| `aria-colindex` | `number` | 否 | `—` | — |
+| `aria-colindextext` | `string` | 否 | `—` | — |
+| `aria-colspan` | `number` | 否 | `—` | — |
+| `aria-controls` | `string` | 否 | `—` | — |
+| `aria-current` | `boolean \| "true" \| "false" \| "time" \| "page" \| "date" \| "step" \| "location"` | 否 | `—` | — |
+| `aria-describedby` | `string` | 否 | `—` | — |
+| `aria-description` | `string` | 否 | `—` | — |
+| `aria-details` | `string` | 否 | `—` | — |
+| `aria-disabled` | `Booleanish` | 否 | `—` | — |
+| `aria-dropeffect` | `"link" \| "none" \| "copy" \| "move" \| "execute" \| "popup"` | 否 | `—` | — |
+| `aria-errormessage` | `string` | 否 | `—` | — |
+| `aria-expanded` | `Booleanish` | 否 | `—` | — |
+| `aria-flowto` | `string` | 否 | `—` | — |
+| `aria-grabbed` | `Booleanish` | 否 | `—` | — |
+| `aria-haspopup` | `boolean \| "true" \| "false" \| "dialog" \| "menu" \| "grid" \| "listbox" \| "tree"` | 否 | `—` | — |
+| `aria-hidden` | `Booleanish` | 否 | `—` | — |
+| `aria-invalid` | `boolean \| "true" \| "false" \| "grammar" \| "spelling"` | 否 | `—` | — |
+| `aria-keyshortcuts` | `string` | 否 | `—` | — |
+| `aria-label` | `string` | 否 | `—` | — |
+| `aria-labelledby` | `string` | 否 | `—` | — |
+| `aria-level` | `number` | 否 | `—` | — |
+| `aria-live` | `"off" \| "assertive" \| "polite"` | 否 | `—` | — |
+| `aria-modal` | `Booleanish` | 否 | `—` | — |
+| `aria-multiline` | `Booleanish` | 否 | `—` | — |
+| `aria-multiselectable` | `Booleanish` | 否 | `—` | — |
+| `aria-orientation` | `"horizontal" \| "vertical"` | 否 | `—` | — |
+| `aria-owns` | `string` | 否 | `—` | — |
+| `aria-placeholder` | `string` | 否 | `—` | — |
+| `aria-posinset` | `number` | 否 | `—` | — |
+| `aria-pressed` | `boolean \| "true" \| "false" \| "mixed"` | 否 | `—` | — |
+| `aria-readonly` | `Booleanish` | 否 | `—` | — |
+| `aria-relevant` | `"text" \| "all" \| "additions" \| "additions removals" \| "additions text" \| "removals" \| "removals additions" \| "removals text" \| "text additions" \| "text removals"` | 否 | `—` | — |
+| `aria-required` | `Booleanish` | 否 | `—` | — |
+| `aria-roledescription` | `string` | 否 | `—` | — |
+| `aria-rowcount` | `number` | 否 | `—` | — |
+| `aria-rowindex` | `number` | 否 | `—` | — |
+| `aria-rowindextext` | `string` | 否 | `—` | — |
+| `aria-rowspan` | `number` | 否 | `—` | — |
+| `aria-selected` | `Booleanish` | 否 | `—` | — |
+| `aria-setsize` | `number` | 否 | `—` | — |
+| `aria-sort` | `"none" \| "ascending" \| "descending" \| "other"` | 否 | `—` | — |
+| `aria-valuemax` | `number` | 否 | `—` | — |
+| `aria-valuemin` | `number` | 否 | `—` | — |
+| `aria-valuenow` | `number` | 否 | `—` | — |
+| `aria-valuetext` | `string` | 否 | `—` | — |
+
+</details>
 
 ## Parts
 
@@ -110,56 +100,6 @@ Generated from the TypeScript type of the root export. DOM attributes inherited 
 - `HoloCard.ShinePattern`
 - `HoloCard.Surface`
 
-## Token
-
-主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
-
-组件级 token 对照建设中。
-
 ## 画廊
 
-[HoloCard](https://yuchuanux-a11y.github.io/cube-preview/#HoloCard)
-
-公开画廊的 Web Demo。哈希是示例目录里的组件名。
-
-[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/holo-card.md)
-
-## Example source
-
-Demo files may import `@components/...`. Apps should use the package path in Import.
-
-```tsx
-'use client';
-
-import { HoloCard } from '@components/holo-card';
-
-export function Default() {
-  return (
-    <div className="flex items-center justify-center py-10">
-      <HoloCard gradient="linear-gradient(140deg, #3a3730 0%, #1a1b22 78%, #12131c 100%)">
-        <HoloCard.Rotator>
-          <HoloCard.Frame>
-            <HoloCard.Surface>
-              <HoloCard.Image
-                alt=""
-                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 210 294'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%233a3730'/%3E%3Cstop offset='1' stop-color='%2312131c'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='210' height='294' fill='url(%23g)'/%3E%3C/svg%3E"
-              />
-              <HoloCard.Inset />
-              <HoloCard.Pattern />
-              <HoloCard.Content className="flex-col items-center justify-center">
-                <span className="text-3xl font-bold text-white">
-                  Marcus Wong
-                </span>
-              </HoloCard.Content>
-              <HoloCard.Content className="items-end justify-center pb-10">
-                <span className="text-sm text-white/40">Member #0999</span>
-              </HoloCard.Content>
-              <HoloCard.Shine />
-            </HoloCard.Surface>
-          </HoloCard.Frame>
-        </HoloCard.Rotator>
-      </HoloCard>
-    </div>
-  );
-}
-```
+https://yuchuanux-a11y.github.io/cube-preview/#HoloCard

@@ -10,6 +10,7 @@ No git tags were found in the history available to this build.
 
 ### 2026-10
 
+- [`ba10d82`](https://github.com/yuchuanux-a11y/cube-design-system/commit/ba10d82) 2026-10-27 feat: polish docs navigation, homepage, and token pages
 - [`90e2d39`](https://github.com/yuchuanux-a11y/cube-design-system/commit/90e2d39) 2026-10-27 ci: publish this branch to cube-preview/docs-preview
 - [`52a93a8`](https://github.com/yuchuanux-a11y/cube-design-system/commit/52a93a8) 2026-10-27 feat: publish a branch docs preview without replacing /docs/
 - [`b194c0a`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b194c0a) 2026-10-27 feat: show foundations and typical pages in the docs site

@@ -2,16 +2,9 @@
 
 Primitive single-line text input component that accepts standard HTML attributes
 
-| 项目 | 内容 |
-| --- | --- |
-| 包 | `@heroui/react` |
-| 分层 | Foundation |
-| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
-| 稳定 ID | 未登记 |
-
-检索：Input、input。
-
-Native 目录说明：单行文字输入与禁用状态。
+- 分层：Foundation
+- 包：`@heroui/react`
+- 状态：建设中
 
 ## Import
 
@@ -19,66 +12,36 @@ Native 目录说明：单行文字输入与禁用状态。
 import { Input } from "@heroui/react";
 ```
 
-## Preview
-
-The docs page renders a live preview of the real component.
-
-## 适用
-
-建设中。设计 registry 没有这条用法。
-
-## 不适用
-
-建设中。
-
 ## Props
 
-Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+## 属性
 
-| Prop | Type | Required | Default | Description |
+| 属性 | 类型 | 必填 | 默认 | 说明 |
 | --- | --- | --- | --- | --- |
-| `fullWidth` | `boolean` | No | `—` | — |
-| `variant` | `"primary" \| "secondary"` | No | `—` | — |
-| `children` | `ReactNode` | No | `—` | — |
-| `className` | `ClassNameOrFunction<InputRenderProps>` | No | `'react-aria-Input'` | The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the element. A function may be provided to compute the class based on component state. |
-| `onHoverChange` | `(isHovering: boolean) => void` | No | `—` | Handler that is called when the hover state changes. |
-| `onHoverEnd` | `(e: HoverEvent) => void` | No | `—` | Handler that is called when a hover interaction ends. |
-| `onHoverStart` | `(e: HoverEvent) => void` | No | `—` | Handler that is called when a hover interaction starts. |
-| `placeholder` | `string` | No | `—` | Temporary text that occupies the text input when it is empty. See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder). |
-| `render` | `DOMRenderFunction<"input", InputRenderProps>` | No | `—` | Overrides the default DOM element with a custom render function. This allows rendering existing components with built-in styles and behaviors such as router links, animation libraries, and pre-styled components. Requirements: - You must render the expected element type (e.g. if `<button>` is expected, you cannot render an `<a>`). - Only a single root DOM element can be rendered (no fragments). - You must pass through props and ref to the underlying DOM element, merging with your own prop as appropriate. |
-| `slot` | `string` | No | `—` | — |
-| `style` | `StyleOrFunction<InputRenderProps>` | No | `—` | The inline [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) for the element. A function may be provided to compute the style based on component state. |
+| `fullWidth` | `boolean` | 否 | `—` | — |
+| `variant` | `"primary" \| "secondary"` | 否 | `—` | — |
+| `children` | `ReactNode` | 否 | `—` | — |
+| `className` | `ClassNameOrFunction<InputRenderProps>` | 否 | `'react-aria-Input'` | The CSS [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) for the element. A function may be provided to compute the class based on component state. |
+| `placeholder` | `string` | 否 | `—` | Temporary text that occupies the text input when it is empty. See [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Attributes/placeholder). |
+| `render` | `DOMRenderFunction<"input", InputRenderProps>` | 否 | `—` | Overrides the default DOM element with a custom render function. This allows rendering existing components with built-in styles and behaviors such as router links, animation libraries, and pre-styled components. Requirements: - You must render the expected element type (e.g. if `<button>` is expected, you cannot render an `<a>`). - Only a single root DOM element can be rendered (no fragments). - You must pass through props and ref to the underlying DOM element, merging with your own prop as appropriate. |
+| `slot` | `string` | 否 | `—` | — |
+| `style` | `StyleOrFunction<InputRenderProps>` | 否 | `—` | The inline [style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style) for the element. A function may be provided to compute the style based on component state. |
 
-## Token
+<details className="not-prose my-6">
+<summary className="cursor-pointer text-sm text-fd-muted-foreground">无障碍与事件</summary>
 
-主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
+| 属性 | 类型 | 必填 | 默认 | 说明 |
+| --- | --- | --- | --- | --- |
+| `onHoverChange` | `(isHovering: boolean) => void` | 否 | `—` | Handler that is called when the hover state changes. |
+| `onHoverEnd` | `(e: HoverEvent) => void` | 否 | `—` | Handler that is called when a hover interaction ends. |
+| `onHoverStart` | `(e: HoverEvent) => void` | 否 | `—` | Handler that is called when a hover interaction starts. |
 
-组件级 token 对照建设中。
+</details>
 
 ## Figma
 
-[Open Input in Figma](https://www.figma.com/design/D5ZApigd5hFmvI54TkJlAh/Cube-Design-System-for-Web?node-id=17293-26222)
+https://www.figma.com/design/D5ZApigd5hFmvI54TkJlAh/Cube-Design-System-for-Web?node-id=17293-26222
 
 ## 画廊
 
-[Input](https://yuchuanux-a11y.github.io/cube-preview/#Mobile/Input)
-
-公开画廊的 Native 目录有同名入口。Web Demo 目录没有这个 Foundation 组件的独立页面。
-
-[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/input.md)
-
-## Example source
-
-Demo files may import `@components/...`. Apps should use the package path in Import.
-
-```tsx
-'use client';
-
-import {Input} from "@heroui/react";
-
-export function Basic() {
-  return <Input aria-label="Name" className="w-64" placeholder="Enter your name" />;
-}
-
-export { Basic as Preview };
-```
+https://yuchuanux-a11y.github.io/cube-preview/#Mobile/Input
