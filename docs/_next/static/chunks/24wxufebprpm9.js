@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,655495,e=>{"use strict";var i=e.i(843476),n=e.i(947616);function r(){return(0,i.jsx)("div",{className:"flex items-center gap-4",children:(0,i.jsx)(n.Spinner,{})})}e.s(["Preview",0,r,"SpinnerBasic",0,r])}]);

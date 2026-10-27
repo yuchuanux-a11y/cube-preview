@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,353044,e=>{"use strict";var i=e.i(843476);e.s([],236752),e.i(236752),e.s(["Preview",0,function(){return(0,i.jsx)("div",{className:"text-sm",children:"EmojiPicker preview placeholder"})}],353044)}]);
