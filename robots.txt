@@ -2,3 +2,5 @@
 User-agent: *
 Disallow: /cube-preview/docs/
 Disallow: /docs/
+Disallow: /cube-preview/docs-preview/
+Disallow: /docs-preview/

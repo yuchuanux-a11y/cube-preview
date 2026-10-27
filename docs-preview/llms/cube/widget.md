@@ -1,0 +1,187 @@
+# Widget
+
+Cube component `Widget` from `@bosagent/cube-ui/widget`.
+
+| 项目 | 内容 |
+| --- | --- |
+| 包 | `@bosagent/cube-ui/widget` |
+| 分层 | Cube |
+| 成熟度 | 代码可预览。设计 registry 没有该组件的规范条目（建设中）。 |
+| 稳定 ID | 未登记 |
+| 源码 | `packages/cube-ui/src/components/widget` |
+
+检索：Widget、widget。
+
+## Import
+
+```tsx
+import { Widget } from "@bosagent/cube-ui/widget";
+import { Widget } from "@bosagent/cube-ui";
+```
+
+## Preview
+
+The docs page renders a live preview of the real component.
+
+## 适用
+
+建设中。设计 registry 没有这条用法。
+
+## 不适用
+
+建设中。
+
+## Props
+
+Generated from the TypeScript type of the root export. DOM attributes inherited from React are omitted.
+
+| Prop | Type | Required | Default | Description |
+| --- | --- | --- | --- | --- |
+| `children` | `React.ReactNode` | Yes | `—` | — |
+| `className` | `string` | No | `—` | — |
+| `render` | `DOMRenderFunction<E, undefined>` | No | `—` | Overrides the default DOM element with a custom render function. This allows rendering existing components with built-in styles and behaviors such as router links, animation libraries, and pre-styled components. Requirements: * You must render the expected element type (e.g. if `<button>` is expected, you cannot render an `<a>`). * Only a single root DOM element can be rendered (no fragments). * You must pass through props and ref to the underlying DOM element, merging with your own prop as appropriate. |
+| `slot` | `JSX.IntrinsicElements[E]["slot"]` | No | `—` | — |
+
+## Parts
+
+- `Widget.Content`
+- `Widget.Description`
+- `Widget.Footer`
+- `Widget.Header`
+- `Widget.Legend`
+- `Widget.LegendItem`
+- `Widget.Title`
+
+## Token
+
+主题值见 [设计基础](/foundations)、[色彩](/foundations/color)、[圆角](/foundations/radius)、[阴影](/foundations/shadow)。
+
+组件级 token 对照建设中。
+
+## 画廊
+
+[Widget](https://yuchuanux-a11y.github.io/cube-preview/#Widget)
+
+公开画廊的 Web Demo。哈希是示例目录里的组件名。
+
+[Markdown for agents](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/widget.md)
+
+## Example source
+
+Demo files may import `@components/...`. Apps should use the package path in Import.
+
+```tsx
+'use client';
+
+import { ChartTooltip } from '@components/chart-tooltip';
+import { LineChart } from '@components/line-chart';
+import { Widget } from '@components/widget';
+
+const tokensData = [
+  { date: '2025-09-01', input: 35000, output: 22000 },
+  { date: '2025-09-02', input: 80000, output: 35000 },
+  { date: '2025-09-03', input: 130000, output: 48000 },
+  { date: '2025-09-04', input: 140000, output: 50000 },
+  { date: '2025-09-05', input: 15000, output: 5000 },
+  { date: '2025-09-06', input: 50000, output: 30000 },
+  { date: '2025-09-07', input: 65000, output: 35000 },
+  { date: '2025-09-08', input: 70000, output: 40000 },
+  { date: '2025-09-09', input: 60000, output: 45000 },
+  { date: '2025-09-10', input: 40000, output: 15000 },
+  { date: '2025-09-11', input: 55000, output: 28000 },
+  { date: '2025-09-12', input: 75000, output: 35000 },
+  { date: '2025-09-13', input: 50000, output: 30000 },
+  { date: '2025-09-14', input: 45000, output: 25000 },
+  { date: '2025-09-15', input: 90000, output: 40000 },
+  { date: '2025-09-16', input: 95000, output: 45000 },
+  { date: '2025-09-17', input: 110000, output: 48000 },
+  { date: '2025-09-18', input: 60000, output: 30000 },
+  { date: '2025-09-19', input: 55000, output: 25000 },
+  { date: '2025-09-20', input: 70000, output: 20000 },
+  { date: '2025-09-21', input: 60000, output: 22000 },
+  { date: '2025-09-22', input: 55000, output: 18000 },
+  { date: '2025-09-23', input: 65000, output: 25000 },
+  { date: '2025-09-24', input: 50000, output: 15000 },
+  { date: '2025-09-25', input: 45000, output: 18000 },
+  { date: '2025-09-26', input: 55000, output: 20000 },
+  { date: '2025-09-27', input: 40000, output: 15000 },
+  { date: '2025-09-28', input: 35000, output: 12000 },
+  { date: '2025-09-29', input: 30000, output: 10000 },
+  { date: '2025-09-30', input: 28000, output: 8000 },
+];
+
+export function Default() {
+  return (
+    <Widget className="w-full max-w-[520px]">
+      <Widget.Header>
+        <Widget.Title>Tokens Over Time</Widget.Title>
+        <Widget.Legend>
+          <Widget.LegendItem color="var(--chart-4)">Input</Widget.LegendItem>
+          <Widget.LegendItem color="var(--chart-1)">Output</Widget.LegendItem>
+        </Widget.Legend>
+      </Widget.Header>
+      <Widget.Content>
+        <LineChart data={tokensData} height={220}>
+          <LineChart.Grid vertical={false} />
+          <LineChart.XAxis
+            dataKey="date"
+            tickMargin={8}
+            tickFormatter={(v: string) => {
+              const d = new Date(v);
+
+              return d.toLocaleDateString('en-US', {
+                day: '2-digit',
+                month: '2-digit',
+              });
+            }}
+          />
+          <LineChart.YAxis
+            tickFormatter={(v: number) =>
+              v >= 1000 ? `${(v / 1000).toFixed(0)}k` : `${v}`
+            }
+            width={40}
+          />
+          <LineChart.Line
+            dataKey="input"
+            dot={false}
+            name="Input"
+            stroke="var(--chart-4)"
+            strokeWidth={2}
+            type="monotone"
+          />
+          <LineChart.Line
+            dataKey="output"
+            dot={false}
+            name="Output"
+            stroke="var(--chart-1)"
+            strokeWidth={2}
+            type="monotone"
+          />
+          <LineChart.Tooltip
+            content={({ active, label, payload }) => {
+              if (!active || !payload?.length) return null;
+
+              return (
+                <ChartTooltip>
+                  <ChartTooltip.Header>{label}</ChartTooltip.Header>
+                  {payload.map((entry) => (
+                    <ChartTooltip.Item key={String(entry.dataKey)}>
+                      <ChartTooltip.Indicator
+                        color={entry.color ?? entry.stroke}
+                      />
+                      <ChartTooltip.Label>{entry.name}</ChartTooltip.Label>
+                      <ChartTooltip.Value>
+                        {Number(entry.value).toLocaleString()}
+                      </ChartTooltip.Value>
+                    </ChartTooltip.Item>
+                  ))}
+                </ChartTooltip>
+              );
+            }}
+          />
+        </LineChart>
+      </Widget.Content>
+    </Widget>
+  );
+}
+```

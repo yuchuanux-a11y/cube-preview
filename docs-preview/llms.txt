@@ -1,0 +1,166 @@
+# Cube Design System (Web)
+
+> Web docs for Cube. Foundation components are HeroUI v3 with the Cube theme. Cube components are `@bosagent/cube-ui`. Mobile UI is in the public gallery, not as pages on this site. MCP and Agent Skills are not available.
+
+## Guide
+
+- [概览](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/index.md)
+- [快速接入](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/getting-started/quick-start)
+- [设计基础](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations)
+- [色彩](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/color)
+- [主题](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/theme)
+- [排版](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/typography)
+- [间距](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/spacing)
+- [圆角](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/radius)
+- [阴影](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/foundations/shadow)
+- [典型页面](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/typical-pages)
+- [资源](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/resources)
+- [MCP 状态](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/resources/mcp)
+- [Agent Skills 状态](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/resources/skills)
+- [更新日志](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/changelog.md)
+- [贡献](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/contribute)
+
+## Foundation
+
+- [Accordion](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/accordion.md): 11 generated props.
+- [Alert](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/alert.md): 5 generated props.
+- [AlertDialog](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/alert-dialog.md): 4 generated props.
+- [Autocomplete](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/autocomplete.md): 37 generated props.
+- [Avatar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/avatar.md): 7 generated props.
+- [AvatarGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/avatar-group.md): 10 generated props.
+- [Badge](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/badge.md): 8 generated props.
+- [Breadcrumbs](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/breadcrumbs.md): 10 generated props.
+- [Button](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/button.md): 42 generated props.
+- [ButtonGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/button-group.md): 16 generated props.
+- [Calendar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/calendar.md): 28 generated props.
+- [Card](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/card.md): 5 generated props.
+- [Checkbox](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/checkbox.md): 32 generated props.
+- [CheckboxGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/checkbox-group.md): 18 generated props.
+- [Chip](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/chip.md): 7 generated props.
+- [CloseButton](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/close-button.md): 39 generated props.
+- [ColorArea](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-area.md): 17 generated props.
+- [ColorField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-field.md): 24 generated props.
+- [ColorPicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-picker.md): 6 generated props.
+- [ColorSlider](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-slider.md): 13 generated props.
+- [ColorSwatch](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-swatch.md): 8 generated props.
+- [ColorSwatchPicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/color-swatch-picker.md): 10 generated props.
+- [ComboBox](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/combo-box.md): 39 generated props.
+- [DateField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/date-field.md): 30 generated props.
+- [DatePicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/date-picker.md): 35 generated props.
+- [DateRangePicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/date-range-picker.md): 37 generated props.
+- [Description](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/description.md): 5 generated props.
+- [Disclosure](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/disclosure.md): 10 generated props.
+- [DisclosureGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/disclosure-group.md): 9 generated props.
+- [Drawer](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/drawer.md): 5 generated props.
+- [Dropdown](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/dropdown.md): 6 generated props.
+- [ErrorMessage](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/error-message.md): 5 generated props.
+- [FieldError](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/field-error.md): 5 generated props.
+- [Fieldset](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/fieldset.md): 4 generated props.
+- [Form](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/form.md): 5 generated props.
+- [Input](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/input.md): 11 generated props.
+- [InputGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/input-group.md): 14 generated props.
+- [InputOTP](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/input-otp.md): 18 generated props.
+- [Kbd](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/kbd.md): 5 generated props.
+- [Label](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/label.md): 8 generated props.
+- [Link](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/link.md): 21 generated props.
+- [ListBox](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/list-box.md): 28 generated props.
+- [Meter](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/meter.md): 12 generated props.
+- [Modal](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/modal.md): 5 generated props.
+- [NumberField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/number-field.md): 30 generated props.
+- [Pagination](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/pagination.md): 5 generated props.
+- [Popover](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/popover.md): 4 generated props.
+- [ProgressBar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/progress-bar.md): 13 generated props.
+- [ProgressCircle](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/progress-circle.md): 13 generated props.
+- [Radio](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/radio.md): 21 generated props.
+- [RadioGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/radio-group.md): 19 generated props.
+- [RangeCalendar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/range-calendar.md): 29 generated props.
+- [ScrollShadow](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/scroll-shadow.md): 11 generated props.
+- [SearchField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/search-field.md): 30 generated props.
+- [Select](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/select.md): 37 generated props.
+- [Separator](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/separator.md): 7 generated props.
+- [Skeleton](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/skeleton.md): 5 generated props.
+- [Slider](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/slider.md): 15 generated props.
+- [Spinner](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/spinner.md): 6 generated props.
+- [Surface](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/surface.md): 5 generated props.
+- [Switch](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/switch.md): 30 generated props.
+- [Table](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/table.md): 5 generated props.
+- [Tabs](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/tabs.md): 14 generated props.
+- [TagGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/tag-group.md): 18 generated props.
+- [TextArea](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/text-area.md): 10 generated props.
+- [TextField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/text-field.md): 27 generated props.
+- [TimeField](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/time-field.md): 28 generated props.
+- [Toast](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/toast.md): 8 generated props.
+- [ToggleButton](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/toggle-button.md): 34 generated props.
+- [ToggleButtonGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/toggle-button-group.md): 15 generated props.
+- [Toolbar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/toolbar.md): 7 generated props.
+- [Tooltip](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/tooltip.md): 10 generated props.
+- [Typography](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/foundation/typography.md): 9 generated props.
+
+## Cube
+
+- [ActionBar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/action-bar.md): 8 generated props.
+- [Agenda](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/agenda.md): 40 generated props.
+- [AppLayout](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/app-layout.md): 35 generated props.
+- [AreaChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/area-chart.md): 7 generated props.
+- [BarChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/bar-chart.md): 8 generated props.
+- [Carousel](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/carousel.md): 7 generated props.
+- [CellColorPicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/cell-color-picker.md): 7 generated props.
+- [CellSelect](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/cell-select.md): 37 generated props.
+- [CellSlider](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/cell-slider.md): 15 generated props.
+- [CellSwitch](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/cell-switch.md): 31 generated props.
+- [ChainOfThought](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chain-of-thought.md): 11 generated props.
+- [ChartTooltip](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chart-tooltip.md): 5 generated props.
+- [ChatAttachment](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-attachment.md): 8 generated props.
+- [ChatConversation](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-conversation.md): 5 generated props.
+- [ChatListView](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-list-view.md): 27 generated props.
+- [ChatLoader](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-loader.md): 29 generated props.
+- [ChatMessage](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-message.md): 48 generated props.
+- [ChatMessageActions](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-message-actions.md): 3 generated props.
+- [ChatSource](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-source.md): 9 generated props.
+- [ChatTool](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/chat-tool.md): 24 generated props.
+- [CheckboxButtonGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/checkbox-button-group.md): 19 generated props.
+- [CodeBlock](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/code-block.md): 3 generated props.
+- [Command](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/command.md): 1 generated props.
+- [ComposedChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/composed-chart.md): 7 generated props.
+- [ContextMenu](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/context-menu.md): 5 generated props.
+- [DataGrid](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/data-grid.md): 40 generated props.
+- [DropZone](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/drop-zone.md): 4 generated props.
+- [EmojiPicker](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/emoji-picker.md): 34 generated props.
+- [EmojiReactionButton](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/emoji-reaction-button.md): 33 generated props.
+- [EmptyState](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/empty-state.md): 5 generated props.
+- [FileTree](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/file-tree.md): 28 generated props.
+- [FloatingToc](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/floating-toc.md): 8 generated props.
+- [HoloCard](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/holo-card.md): 60 generated props.
+- [HoverCard](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/hover-card.md): 7 generated props.
+- [InlineSelect](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/inline-select.md): 37 generated props.
+- [ItemCard](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/item-card.md): 5 generated props.
+- [ItemCardGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/item-card-group.md): 6 generated props.
+- [Kanban](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/kanban.md): 11 generated props.
+- [KPI](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/kpi.md): 5 generated props.
+- [KPIGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/kpi-group.md): 4 generated props.
+- [LineChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/line-chart.md): 7 generated props.
+- [ListView](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/list-view.md): 27 generated props.
+- [Map](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/map.md): 60 generated props.
+- [Markdown](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/markdown.md): 5 generated props.
+- [NativeSelect](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/native-select.md): 5 generated props.
+- [Navbar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/navbar.md): 14 generated props.
+- [NumberStepper](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/number-stepper.md): 29 generated props.
+- [NumberValue](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/number-value.md): 13 generated props.
+- [PieChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/pie-chart.md): 5 generated props.
+- [PressableFeedback](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/pressable-feedback.md): 5 generated props.
+- [PromptInput](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/prompt-input.md): 16 generated props.
+- [PromptSuggestion](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/prompt-suggestion.md): 4 generated props.
+- [RadarChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/radar-chart.md): 6 generated props.
+- [RadialChart](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/radial-chart.md): 11 generated props.
+- [RadioButtonGroup](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/radio-button-group.md): 20 generated props.
+- [Rating](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/rating.md): 19 generated props.
+- [Resizable](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/resizable.md): 9 generated props.
+- [RichTextEditor](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/rich-text-editor.md): 13 generated props.
+- [Segment](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/segment.md): 13 generated props.
+- [Sheet](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/sheet.md): 30 generated props.
+- [Sidebar](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/sidebar.md): 3 generated props.
+- [Stepper](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/stepper.md): 8 generated props.
+- [TextShimmer](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/text-shimmer.md): 4 generated props.
+- [Timeline](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/timeline.md): 8 generated props.
+- [TrendChip](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/trend-chip.md): 7 generated props.
+- [Widget](https://yuchuanux-a11y.github.io/cube-preview/docs-preview/llms/cube/widget.md): 4 generated props.
