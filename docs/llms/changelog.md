@@ -10,12 +10,16 @@ No git tags were found in the history available to this build.
 
 ### 2026-10
 
+- [`ab59b86`](https://github.com/yuchuanux-a11y/cube-design-system/commit/ab59b86) 2026-10-28 Merge pull request [#2](https://github.com/yuchuanux-a11y/cube-design-system/pull/2) from yuchuanux-a11y/design/chart-colors-blue
+- [`11ec3df`](https://github.com/yuchuanux-a11y/cube-design-system/commit/11ec3df) 2026-10-28 chore: regenerate Cube tokens for the chart palette
+- [`9a25f1c`](https://github.com/yuchuanux-a11y/cube-design-system/commit/9a25f1c) 2026-10-28 Merge branch 'main' into design/chart-colors-blue Co-authored-by: Ryan <yuchuanux-a11y@users.noreply.github.com>
 - [`6c63231`](https://github.com/yuchuanux-a11y/cube-design-system/commit/6c63231) 2026-10-27 Merge pull request [#7](https://github.com/yuchuanux-a11y/cube-design-system/pull/7) from yuchuanux-a11y/cursor/cube-docs-site-8748
 - [`39f9464`](https://github.com/yuchuanux-a11y/cube-design-system/commit/39f9464) 2026-10-27 ci: publish Cube docs to cube-preview from Actions
 - [`b61baba`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b61baba) 2026-10-27 feat: publish Cube docs under cube-preview/docs
 - [`266ed7e`](https://github.com/yuchuanux-a11y/cube-design-system/commit/266ed7e) 2026-10-27 feat: add internal Cube Web docs site
 - [`02371ea`](https://github.com/yuchuanux-a11y/cube-design-system/commit/02371ea) 2026-10-26 docs: document the public GitHub Pages preview
 - [`29c638a`](https://github.com/yuchuanux-a11y/cube-design-system/commit/29c638a) 2026-10-26 docs: link the published Cube preview
+- [`b3b18f5`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b3b18f5) 2026-10-26 feat(theme): add --chart-1..5 matching Figma charts (Mobile blue palette)
 - [`b957dcc`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b957dcc) 2026-10-24 feat: make Cube the default theme across the library
 - [`3b7e8f6`](https://github.com/yuchuanux-a11y/cube-design-system/commit/3b7e8f6) 2026-10-24 test: complete Mobile Pro simulator regression evidence
 - [`6328a21`](https://github.com/yuchuanux-a11y/cube-design-system/commit/6328a21) 2026-10-24 feat: integrate Native Pro components with four-theme preview
