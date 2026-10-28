@@ -10,6 +10,8 @@ No git tags were found in the history available to this build.
 
 ### 2026-10
 
+- [`bf2006d`](https://github.com/yuchuanux-a11y/cube-design-system/commit/bf2006d) 2026-10-28 Merge pull request [#4](https://github.com/yuchuanux-a11y/cube-design-system/pull/4) from yuchuanux-a11y/cursor/cube-theme-single-source-0e9c
+- [`474d8fa`](https://github.com/yuchuanux-a11y/cube-design-system/commit/474d8fa) 2026-10-28 Merge branch 'main' into cursor/cube-theme-single-source-0e9c Co-authored-by: Ryan <yuchuanux-a11y@users.noreply.github.com>
 - [`ab59b86`](https://github.com/yuchuanux-a11y/cube-design-system/commit/ab59b86) 2026-10-28 Merge pull request [#2](https://github.com/yuchuanux-a11y/cube-design-system/pull/2) from yuchuanux-a11y/design/chart-colors-blue
 - [`11ec3df`](https://github.com/yuchuanux-a11y/cube-design-system/commit/11ec3df) 2026-10-28 chore: regenerate Cube tokens for the chart palette
 - [`9a25f1c`](https://github.com/yuchuanux-a11y/cube-design-system/commit/9a25f1c) 2026-10-28 Merge branch 'main' into design/chart-colors-blue Co-authored-by: Ryan <yuchuanux-a11y@users.noreply.github.com>
@@ -17,6 +19,7 @@ No git tags were found in the history available to this build.
 - [`39f9464`](https://github.com/yuchuanux-a11y/cube-design-system/commit/39f9464) 2026-10-27 ci: publish Cube docs to cube-preview from Actions
 - [`b61baba`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b61baba) 2026-10-27 feat: publish Cube docs under cube-preview/docs
 - [`266ed7e`](https://github.com/yuchuanux-a11y/cube-design-system/commit/266ed7e) 2026-10-27 feat: add internal Cube Web docs site
+- [`5153d24`](https://github.com/yuchuanux-a11y/cube-design-system/commit/5153d24) 2026-10-27 fix: resolve Cube theme tokens from the single contract
 - [`02371ea`](https://github.com/yuchuanux-a11y/cube-design-system/commit/02371ea) 2026-10-26 docs: document the public GitHub Pages preview
 - [`29c638a`](https://github.com/yuchuanux-a11y/cube-design-system/commit/29c638a) 2026-10-26 docs: link the published Cube preview
 - [`b3b18f5`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b3b18f5) 2026-10-26 feat(theme): add --chart-1..5 matching Figma charts (Mobile blue palette)

@@ -1,7 +1,7 @@
 {
   "kind": "cube-docs",
-  "sourceRevision": "ab59b86ac4a4c24b70897b55b6278904ac4a0617",
-  "builtAt": "2026-10-28T13:46:06.503Z",
+  "sourceRevision": "bf2006d83bba7fe384253f8423310ac5d2d14ef0",
+  "builtAt": "2026-10-28T13:49:41.763Z",
   "basePath": "/cube-preview/docs",
   "publicUrl": "https://yuchuanux-a11y.github.io/cube-preview/docs/",
   "galleryUrl": "https://yuchuanux-a11y.github.io/cube-preview/#PromptInputQueue"
