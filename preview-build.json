@@ -1,8 +1,8 @@
 {
-  "sourceRevision": "0c694da243fbe32fcccc2015fb5bc790120e2c29",
-  "sourceBranch": "cursor/input-composer-foundation-d2c4",
+  "sourceRevision": "f26951511afdf628130fbe74e739f24b18069f74",
+  "sourceBranch": "cursor/field-shape-d2c4",
   "builtAt": "2026-10-28",
   "publicPreview": true,
   "base": "/cube-preview/",
-  "pr": 13
+  "pr": 15
 }
