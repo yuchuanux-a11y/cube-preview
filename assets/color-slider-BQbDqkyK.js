@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{D as t,V as n}from"./index-DuePl6nG.js";var r=e();function i(){return(0,r.jsxs)(n,{channel:`hue`,className:`w-full max-w-xs`,defaultValue:`hsl(0, 100%, 50%)`,children:[(0,r.jsx)(t,{children:`Hue`}),(0,r.jsx)(n.Output,{}),(0,r.jsx)(n.Track,{children:(0,r.jsx)(n.Thumb,{})})]})}export{i as Basic,i as Preview};

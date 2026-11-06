@@ -10,6 +10,9 @@ No git tags were found in the history available to this build.
 
 ### 2026-11
 
+- [`19a1c5d`](https://github.com/yuchuanux-a11y/cube-design-system/commit/19a1c5d) 2026-11-06 Make the preview header the only way through the site.
+- [`23a6978`](https://github.com/yuchuanux-a11y/cube-design-system/commit/23a6978) 2026-11-06 Remove the unused section switch after the header refactor.
+- [`35e0e5b`](https://github.com/yuchuanux-a11y/cube-design-system/commit/35e0e5b) 2026-11-06 Refactor the preview shell into one readable header.
 - [`e170201`](https://github.com/yuchuanux-a11y/cube-design-system/commit/e170201) 2026-11-06 Add preview version switching and the confirmed Figma components.
 - [`32db018`](https://github.com/yuchuanux-a11y/cube-design-system/commit/32db018) 2026-11-06 Serve components, typical pages, and docs from one preview app.
 - [`d0bf1c6`](https://github.com/yuchuanux-a11y/cube-design-system/commit/d0bf1c6) 2026-11-05 Add controlled MCP and Skills catalog rows
