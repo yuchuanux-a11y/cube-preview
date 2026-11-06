@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{l as t}from"./index-DK6ecwOm.js";var n=e();function r(){return(0,n.jsx)(t,{"aria-label":`Quick project update`,className:`h-32 w-96`,placeholder:`Share a quick project update...`})}export{r as Basic,r as Preview};
