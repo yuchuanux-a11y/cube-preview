@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{t}from"./date-field-Cfhj_-_8.js";import{D as n}from"./index-DPnVAO7j.js";var r=e();function i(){return(0,r.jsxs)(t,{className:`w-[256px]`,name:`date`,children:[(0,r.jsx)(n,{children:`Date`}),(0,r.jsx)(t.Group,{children:(0,r.jsx)(t.Input,{children:e=>(0,r.jsx)(t.Segment,{segment:e})})})]})}export{i as Basic,i as Preview};
