@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{t as n}from"./I18nProvider-CPOIXIkT.js";import{t as r}from"./NumberFormatter-CHYrjPj-.js";var i=t(e(),1);function a(e={}){let{locale:t}=n();return(0,i.useMemo)(()=>new r(t,e),[t,e])}export{a as t};

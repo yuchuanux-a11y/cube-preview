@@ -1,0 +1,176 @@
+# Cube Design System (Web)
+
+> Web docs for Cube, in the same preview as component galleries and typical pages. Foundation components are HeroUI v3 with the Cube theme. Cube components are `@bosagent/cube-ui`. Mobile previews use `#Mobile/Button`. MCP and Agent Skills are not available.
+
+## Guide
+
+- [概览](/llms/index.md)
+- [快速接入](#Docs/getting-started/quick-start)
+- [设计基础](#Docs/foundations)
+- [色彩](#Docs/foundations/color)
+- [主题](#Docs/foundations/theme)
+- [排版](#Docs/foundations/typography)
+- [间距](#Docs/foundations/spacing)
+- [圆角](#Docs/foundations/radius)
+- [阴影](#Docs/foundations/shadow)
+- [典型页面](#Docs/typical-pages)
+- [资源](#Docs/resources)
+- [MCP 状态](#Docs/resources/mcp)
+- [Agent Skills 状态](#Docs/resources/skills)
+- [更新日志](/llms/changelog.md)
+- [贡献](#Docs/contribute)
+
+## Foundation
+
+- [Accordion](/llms/foundation/accordion.md): 11 generated props.
+- [Alert](/llms/foundation/alert.md): 5 generated props.
+- [AlertDialog](/llms/foundation/alert-dialog.md): 4 generated props.
+- [Autocomplete](/llms/foundation/autocomplete.md): 37 generated props.
+- [Avatar](/llms/foundation/avatar.md): 7 generated props.
+- [AvatarGroup](/llms/foundation/avatar-group.md): 10 generated props.
+- [Badge](/llms/foundation/badge.md): 8 generated props.
+- [Breadcrumbs](/llms/foundation/breadcrumbs.md): 10 generated props.
+- [Button](/llms/foundation/button.md): 42 generated props.
+- [ButtonGroup](/llms/foundation/button-group.md): 16 generated props.
+- [Calendar](/llms/foundation/calendar.md): 28 generated props.
+- [Card](/llms/foundation/card.md): 5 generated props.
+- [Checkbox](/llms/foundation/checkbox.md): 32 generated props.
+- [CheckboxGroup](/llms/foundation/checkbox-group.md): 18 generated props.
+- [Chip](/llms/foundation/chip.md): 7 generated props.
+- [CloseButton](/llms/foundation/close-button.md): 39 generated props.
+- [ColorArea](/llms/foundation/color-area.md): 17 generated props.
+- [ColorField](/llms/foundation/color-field.md): 24 generated props.
+- [ColorPicker](/llms/foundation/color-picker.md): 6 generated props.
+- [ColorSlider](/llms/foundation/color-slider.md): 13 generated props.
+- [ColorSwatch](/llms/foundation/color-swatch.md): 8 generated props.
+- [ColorSwatchPicker](/llms/foundation/color-swatch-picker.md): 10 generated props.
+- [ComboBox](/llms/foundation/combo-box.md): 39 generated props.
+- [DateField](/llms/foundation/date-field.md): 30 generated props.
+- [DatePicker](/llms/foundation/date-picker.md): 35 generated props.
+- [DateRangePicker](/llms/foundation/date-range-picker.md): 37 generated props.
+- [Description](/llms/foundation/description.md): 5 generated props.
+- [Disclosure](/llms/foundation/disclosure.md): 10 generated props.
+- [DisclosureGroup](/llms/foundation/disclosure-group.md): 9 generated props.
+- [Drawer](/llms/foundation/drawer.md): 5 generated props.
+- [Dropdown](/llms/foundation/dropdown.md): 6 generated props.
+- [ErrorMessage](/llms/foundation/error-message.md): 5 generated props.
+- [FieldError](/llms/foundation/field-error.md): 5 generated props.
+- [Fieldset](/llms/foundation/fieldset.md): 4 generated props.
+- [Form](/llms/foundation/form.md): 5 generated props.
+- [Input](/llms/foundation/input.md): 11 generated props.
+- [InputGroup](/llms/foundation/input-group.md): 14 generated props.
+- [InputOTP](/llms/foundation/input-otp.md): 18 generated props.
+- [Kbd](/llms/foundation/kbd.md): 5 generated props.
+- [Label](/llms/foundation/label.md): 8 generated props.
+- [Link](/llms/foundation/link.md): 21 generated props.
+- [ListBox](/llms/foundation/list-box.md): 28 generated props.
+- [Meter](/llms/foundation/meter.md): 12 generated props.
+- [Modal](/llms/foundation/modal.md): 5 generated props.
+- [NumberField](/llms/foundation/number-field.md): 30 generated props.
+- [Pagination](/llms/foundation/pagination.md): 5 generated props.
+- [Popover](/llms/foundation/popover.md): 4 generated props.
+- [ProgressBar](/llms/foundation/progress-bar.md): 13 generated props.
+- [ProgressCircle](/llms/foundation/progress-circle.md): 13 generated props.
+- [Radio](/llms/foundation/radio.md): 21 generated props.
+- [RadioGroup](/llms/foundation/radio-group.md): 19 generated props.
+- [RangeCalendar](/llms/foundation/range-calendar.md): 29 generated props.
+- [ScrollShadow](/llms/foundation/scroll-shadow.md): 11 generated props.
+- [SearchField](/llms/foundation/search-field.md): 30 generated props.
+- [Select](/llms/foundation/select.md): 37 generated props.
+- [Separator](/llms/foundation/separator.md): 7 generated props.
+- [Skeleton](/llms/foundation/skeleton.md): 5 generated props.
+- [Slider](/llms/foundation/slider.md): 15 generated props.
+- [Spinner](/llms/foundation/spinner.md): 6 generated props.
+- [Surface](/llms/foundation/surface.md): 5 generated props.
+- [Switch](/llms/foundation/switch.md): 30 generated props.
+- [Table](/llms/foundation/table.md): 5 generated props.
+- [Tabs](/llms/foundation/tabs.md): 14 generated props.
+- [TagGroup](/llms/foundation/tag-group.md): 18 generated props.
+- [TextArea](/llms/foundation/text-area.md): 10 generated props.
+- [TextField](/llms/foundation/text-field.md): 27 generated props.
+- [TimeField](/llms/foundation/time-field.md): 28 generated props.
+- [Toast](/llms/foundation/toast.md): 8 generated props.
+- [ToggleButton](/llms/foundation/toggle-button.md): 34 generated props.
+- [ToggleButtonGroup](/llms/foundation/toggle-button-group.md): 15 generated props.
+- [Toolbar](/llms/foundation/toolbar.md): 7 generated props.
+- [Tooltip](/llms/foundation/tooltip.md): 10 generated props.
+- [Typography](/llms/foundation/typography.md): 9 generated props.
+
+## Cube
+
+- [ActionBar](/llms/cube/action-bar.md): 8 generated props.
+- [Agenda](/llms/cube/agenda.md): 40 generated props.
+- [AgentQuestion](/llms/cube/agent-question.md): 3 generated props.
+- [AgentStatus](/llms/cube/agent-status.md): 3 generated props.
+- [AppLayout](/llms/cube/app-layout.md): 35 generated props.
+- [ApprovalResult](/llms/cube/approval-result.md): 6 generated props.
+- [AreaChart](/llms/cube/area-chart.md): 7 generated props.
+- [BarChart](/llms/cube/bar-chart.md): 8 generated props.
+- [Carousel](/llms/cube/carousel.md): 7 generated props.
+- [CellColorPicker](/llms/cube/cell-color-picker.md): 7 generated props.
+- [CellSelect](/llms/cube/cell-select.md): 37 generated props.
+- [CellSlider](/llms/cube/cell-slider.md): 15 generated props.
+- [CellSwitch](/llms/cube/cell-switch.md): 31 generated props.
+- [ChainOfThought](/llms/cube/chain-of-thought.md): 11 generated props.
+- [ChartTooltip](/llms/cube/chart-tooltip.md): 5 generated props.
+- [ChatAttachment](/llms/cube/chat-attachment.md): 9 generated props.
+- [ChatConversation](/llms/cube/chat-conversation.md): 5 generated props.
+- [ChatListView](/llms/cube/chat-list-view.md): 28 generated props.
+- [ChatLoader](/llms/cube/chat-loader.md): 55 generated props.
+- [ChatMessage](/llms/cube/chat-message.md): 48 generated props.
+- [ChatMessageActions](/llms/cube/chat-message-actions.md): 3 generated props.
+- [ChatSource](/llms/cube/chat-source.md): 9 generated props.
+- [ChatTool](/llms/cube/chat-tool.md): 24 generated props.
+- [CheckboxButtonGroup](/llms/cube/checkbox-button-group.md): 19 generated props.
+- [CodeBlock](/llms/cube/code-block.md): 3 generated props.
+- [Command](/llms/cube/command.md): 1 generated props.
+- [ComposedChart](/llms/cube/composed-chart.md): 7 generated props.
+- [ContextMenu](/llms/cube/context-menu.md): 5 generated props.
+- [DataGrid](/llms/cube/data-grid.md): 40 generated props.
+- [DropZone](/llms/cube/drop-zone.md): 4 generated props.
+- [EmojiPicker](/llms/cube/emoji-picker.md): 34 generated props.
+- [EmojiReactionButton](/llms/cube/emoji-reaction-button.md): 33 generated props.
+- [EmptyState](/llms/cube/empty-state.md): 5 generated props.
+- [FileTree](/llms/cube/file-tree.md): 28 generated props.
+- [FloatingToc](/llms/cube/floating-toc.md): 8 generated props.
+- [HoloCard](/llms/cube/holo-card.md): 60 generated props.
+- [HoverCard](/llms/cube/hover-card.md): 7 generated props.
+- [InlineSelect](/llms/cube/inline-select.md): 37 generated props.
+- [ItemCard](/llms/cube/item-card.md): 5 generated props.
+- [ItemCardGroup](/llms/cube/item-card-group.md): 6 generated props.
+- [Kanban](/llms/cube/kanban.md): 11 generated props.
+- [KPI](/llms/cube/kpi.md): 5 generated props.
+- [KPIGroup](/llms/cube/kpi-group.md): 4 generated props.
+- [LineChart](/llms/cube/line-chart.md): 7 generated props.
+- [ListView](/llms/cube/list-view.md): 28 generated props.
+- [LoadingState](/llms/cube/loading-state.md): 6 generated props.
+- [Map](/llms/cube/map.md): 60 generated props.
+- [Markdown](/llms/cube/markdown.md): 6 generated props.
+- [NativeSelect](/llms/cube/native-select.md): 5 generated props.
+- [Navbar](/llms/cube/navbar.md): 14 generated props.
+- [NavGroup](/llms/cube/nav-group.md): 11 generated props.
+- [NavGroupShowMore](/llms/cube/nav-group-show-more.md): 3 generated props.
+- [NavItem](/llms/cube/nav-item.md): 15 generated props.
+- [NavSectionHeader](/llms/cube/nav-section-header.md): 9 generated props.
+- [NumberStepper](/llms/cube/number-stepper.md): 29 generated props.
+- [NumberValue](/llms/cube/number-value.md): 13 generated props.
+- [PieChart](/llms/cube/pie-chart.md): 5 generated props.
+- [PixelLoader](/llms/cube/pixel-loader.md): 4 generated props.
+- [PressableFeedback](/llms/cube/pressable-feedback.md): 5 generated props.
+- [PromptInput](/llms/cube/prompt-input.md): 18 generated props.
+- [PromptSuggestion](/llms/cube/prompt-suggestion.md): 4 generated props.
+- [RadarChart](/llms/cube/radar-chart.md): 6 generated props.
+- [RadialChart](/llms/cube/radial-chart.md): 11 generated props.
+- [RadioButtonGroup](/llms/cube/radio-button-group.md): 20 generated props.
+- [Rating](/llms/cube/rating.md): 19 generated props.
+- [Resizable](/llms/cube/resizable.md): 9 generated props.
+- [RichTextEditor](/llms/cube/rich-text-editor.md): 13 generated props.
+- [ScheduledTask](/llms/cube/scheduled-task.md): 3 generated props.
+- [Segment](/llms/cube/segment.md): 13 generated props.
+- [Sheet](/llms/cube/sheet.md): 30 generated props.
+- [Sidebar](/llms/cube/sidebar.md): 3 generated props.
+- [Stepper](/llms/cube/stepper.md): 8 generated props.
+- [TextShimmer](/llms/cube/text-shimmer.md): 4 generated props.
+- [Timeline](/llms/cube/timeline.md): 8 generated props.
+- [TrendChip](/llms/cube/trend-chip.md): 7 generated props.
+- [Widget](/llms/cube/widget.md): 4 generated props.

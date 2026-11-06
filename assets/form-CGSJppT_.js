@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{t}from"./Form-BFAF_TqI.js";var n=e(),r=({...e})=>(0,n.jsx)(t,{...e}),i=Object.assign(r,{Root:r});export{i as t};

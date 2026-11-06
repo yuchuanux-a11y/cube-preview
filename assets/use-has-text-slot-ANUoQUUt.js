@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{n}from"./Text-D6TqIJZ1.js";var r=t(e(),1),i=(0,r.createContext)(!1),a=e=>{let t=(0,r.use)(i),a=(0,r.use)(n);return!t||a?.slots?.[e]!=null};export{a as n,i as t};

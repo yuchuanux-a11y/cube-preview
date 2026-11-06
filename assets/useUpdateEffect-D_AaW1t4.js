@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{i as n}from"./useHover-Bv0WldRg.js";var r=t(e(),1);function i(e,t){let i=(0,r.useRef)(!0),a=(0,r.useRef)(null),o=n(e);(0,r.useEffect)(()=>(i.current=!0,()=>{i.current=!1}),[]),(0,r.useEffect)(()=>{let e=a.current;i.current?i.current=!1:(!e||t.some((t,n)=>!Object.is(t,e[n])))&&o(),a.current=t},t)}export{i as t};

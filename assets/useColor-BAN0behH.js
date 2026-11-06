@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{n}from"./Color-CzLFOg20.js";var r=t(e(),1);function i(e){return(0,r.useMemo)(()=>{if(typeof e==`string`)try{return n(e)}catch{return}return e},[e])}export{i as t};

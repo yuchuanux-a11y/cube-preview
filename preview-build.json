@@ -1,8 +1,10 @@
 {
-  "sourceRevision": "67d9863f88c95fcd2c7517acee983f2eba40afff",
-  "sourceBranch": "cursor/field-shape-d2c4",
-  "builtAt": "2026-10-28",
+  "sourceRevision": "32db018e6756be12c59c2bdaf254302bc934eea4",
+  "sourceBranch": "cursor/unify-preview-docs-df1a",
+  "builtAt": "2026-11-06T06:09:10Z",
   "publicPreview": true,
   "base": "/cube-preview/",
-  "pr": 15
+  "pr": 23,
+  "build": "preview:build",
+  "unified": true
 }

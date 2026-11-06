@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{A as n}from"./useKeyboard-CmSqSVyX.js";import{i as r}from"./useHover-Bv0WldRg.js";var i=t(e(),1);function a(e,t,a,o){let s=r(a),c=a==null;(0,i.useEffect)(()=>{if(!(c||e.current==null))return n(e.current,t,s,o)},[e,t,o,c])}export{a as t};

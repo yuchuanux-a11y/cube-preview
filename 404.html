@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Cube Design System</title>
+    <script>
+      (function () {
+        var path = location.pathname;
+        var nested = path.match(/\/docs(?:-preview)?\/?(.*)$/);
+        var cut = path.search(/\/docs(?:-preview)?(\/|$)/);
+        var root = cut >= 0 ? path.slice(0, cut + 1) : path.replace(/[^/]*$/, '');
+        if (!root.endsWith('/')) root += '/';
+        if (!nested) {
+          location.replace(root + location.hash);
+          return;
+        }
+        var slug = (nested[1] || '')
+          .replace(/\/index\.html$/, '')
+          .replace(/\.html$/, '')
+          .replace(/\/$/, '');
+        location.replace(root + (slug ? '#Docs/' + slug : '#Docs'));
+      })();
+    </script>
+  </head>
+  <body>
+    <p><a href="./">Cube preview</a></p>
+  </body>
+</html>

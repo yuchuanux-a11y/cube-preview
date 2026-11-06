@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{n,s as r}from"./utils-B4daAANc.js";import{t as i}from"./Hidden-C5WUnEil.js";var a=t(e(),1),o=(0,a.createContext)({}),s=i(function(e,t){[e,t]=n(e,t,o);let{elementType:i=`label`,...s}=e,c=r[i];return a.createElement(c,{className:`react-aria-Label`,...s,ref:t})});export{s as n,o as t};

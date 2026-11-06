@@ -1,0 +1,42 @@
+# ComposedChart
+
+Cube component `ComposedChart` from `@bosagent/cube-ui/composed-chart`.
+
+- 分层：Cube
+- 包：`@bosagent/cube-ui/composed-chart`
+- 状态：建设中
+
+## Import
+
+```tsx
+import { ComposedChart } from "@bosagent/cube-ui/composed-chart";
+```
+
+## Props
+
+## 属性
+
+| 属性 | 类型 | 必填 | 默认 | 说明 |
+| --- | --- | --- | --- | --- |
+| `children` | `ReactNode` | 是 | `—` | — |
+| `data` | `Record<string, string \| number>[]` | 是 | `—` | Chart data — array of objects with numeric/string fields for each series. |
+| `height` | `number` | 否 | `300` | Chart height in pixels. |
+| `margin` | `{ bottom?: number; left?: number; right?: number; top?: number; }` | 否 | `{ top: 8, right: 8, bottom: 0, left: 0 }` | Recharts margin. |
+| `width` | `` number \| `${number}%` `` | 否 | `"100%"` | Chart width in pixels or percentage string like "100%". |
+| `className` | `string` | 否 | `—` | — |
+| `slot` | `string` | 否 | `—` | — |
+
+## Parts
+
+- `ComposedChart.Area`
+- `ComposedChart.Bar`
+- `ComposedChart.Grid`
+- `ComposedChart.Line`
+- `ComposedChart.Tooltip`
+- `ComposedChart.TooltipContent`
+- `ComposedChart.XAxis`
+- `ComposedChart.YAxis`
+
+## 画廊
+
+[Open in gallery](#ComposedChart)

@@ -1,4 +1,2 @@
-# cube-docs
 User-agent: *
-Disallow: /cube-preview/docs/
-Disallow: /docs/
+Disallow: /

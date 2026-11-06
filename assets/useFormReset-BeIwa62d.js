@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{i as n}from"./useHover-Bv0WldRg.js";var r=t(e(),1);function i(e,t,i){let a=n(e=>{i&&!e.defaultPrevented&&i(t)});(0,r.useEffect)(()=>{let t=e?.current?.form;return t?.addEventListener(`reset`,a),()=>{t?.removeEventListener(`reset`,a)}},[e])}export{i as t};

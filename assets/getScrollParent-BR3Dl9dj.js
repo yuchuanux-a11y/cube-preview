@@ -1,0 +1,1 @@
+import{o as e}from"./scrollIntoView-BEhCTQiy.js";function t(t,n){let r=t;for(e(r,n)&&(r=r.parentElement);r&&!e(r,n);)r=r.parentElement;return r||document.scrollingElement||document.documentElement}export{t};

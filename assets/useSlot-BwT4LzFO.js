@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{a as n}from"./dist-DPx39P69.js";import{m as r}from"./utils-B4daAANc.js";var i=t(e(),1);function a(e=!0){let[t,r]=(0,i.useState)(e),a=(0,i.useRef)(!1),o=(0,i.useCallback)(e=>{a.current=!0,r(!!e)},[]);return n(()=>{a.current||r(!1)},[]),[o,t]}function o(e=!0){let t=r(),[n,i]=a(e);return{id:i?t:void 0,ref:n}}export{o as t};

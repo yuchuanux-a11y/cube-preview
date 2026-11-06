@@ -1,0 +1,1 @@
+import{n as e}from"./dist-DPx39P69.js";import{a as t}from"./utils-B4daAANc.js";function n(n,r){return t(n,(t,n)=>{let i=typeof r==`function`?r(n)??``:r??``;return e(i,t??``)??``})}var r=(e,t,n)=>typeof e==`function`?e({...n??{},className:t}):t;export{n,r as t};

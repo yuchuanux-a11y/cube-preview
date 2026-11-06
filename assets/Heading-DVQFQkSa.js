@@ -1,0 +1,1 @@
+import{n as e,s as t}from"./jsx-runtime-Bzw2jH9X.js";import{n,s as r}from"./utils-B4daAANc.js";var i=t(e(),1),a=(0,i.createContext)({}),o=(0,i.forwardRef)(function(e,t){[e,t]=n(e,t,a);let{children:o,level:s=3,className:c,...l}=e,u=r[`h${s}`];return i.createElement(u,{...l,ref:t,className:c??`react-aria-Heading`},o)});export{a as n,o as t};
