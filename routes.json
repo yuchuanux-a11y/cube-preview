@@ -1,0 +1,419 @@
+{
+  "site": "Cube preview",
+  "defaultVersion": "2026-11-06",
+  "versions": [
+    {
+      "id": "2026-11-06",
+      "title": "Current",
+      "query": null
+    },
+    {
+      "id": "2026-10-28",
+      "title": "Previous published",
+      "query": "v=2026-10-28"
+    }
+  ],
+  "sections": [
+    {
+      "id": "components",
+      "hash": "#ActionBar",
+      "description": "Component gallery"
+    },
+    {
+      "id": "pages",
+      "hash": "#Typical",
+      "description": "Typical product pages"
+    },
+    {
+      "id": "docs",
+      "hash": "#Docs",
+      "description": "Documentation"
+    },
+    {
+      "id": "mobile",
+      "hash": "#Mobile/Button",
+      "description": "Mobile component gallery"
+    }
+  ],
+  "pages": [
+    {
+      "name": "Work",
+      "hash": "#Typical/work"
+    },
+    {
+      "name": "Chat",
+      "hash": "#Typical/chat"
+    },
+    {
+      "name": "Settings",
+      "hash": "#Typical/settings"
+    },
+    {
+      "name": "Scheduled",
+      "hash": "#Typical/scheduled"
+    }
+  ],
+  "components": [
+    {
+      "name": "ActionBar",
+      "hash": "#ActionBar"
+    },
+    {
+      "name": "AgentStatus",
+      "hash": "#AgentStatus"
+    },
+    {
+      "name": "Agenda",
+      "hash": "#Agenda"
+    },
+    {
+      "name": "AgentQuestion",
+      "hash": "#AgentQuestion"
+    },
+    {
+      "name": "AppLayout",
+      "hash": "#AppLayout"
+    },
+    {
+      "name": "ApprovalResult",
+      "hash": "#ApprovalResult"
+    },
+    {
+      "name": "ApprovalCard",
+      "hash": "#ApprovalCard"
+    },
+    {
+      "name": "AreaChart",
+      "hash": "#AreaChart"
+    },
+    {
+      "name": "BarChart",
+      "hash": "#BarChart"
+    },
+    {
+      "name": "Backdrop",
+      "hash": "#Backdrop"
+    },
+    {
+      "name": "Carousel",
+      "hash": "#Carousel"
+    },
+    {
+      "name": "CellColorPicker",
+      "hash": "#CellColorPicker"
+    },
+    {
+      "name": "CellSelect",
+      "hash": "#CellSelect"
+    },
+    {
+      "name": "CellSlider",
+      "hash": "#CellSlider"
+    },
+    {
+      "name": "CellSwitch",
+      "hash": "#CellSwitch"
+    },
+    {
+      "name": "ChainOfThought",
+      "hash": "#ChainOfThought"
+    },
+    {
+      "name": "ChartTooltip",
+      "hash": "#ChartTooltip"
+    },
+    {
+      "name": "ChatAttachment",
+      "hash": "#ChatAttachment"
+    },
+    {
+      "name": "ChatAttachmentGroup",
+      "hash": "#ChatAttachmentGroup"
+    },
+    {
+      "name": "ChatAttachmentInput",
+      "hash": "#ChatAttachmentInput"
+    },
+    {
+      "name": "ChatConversation",
+      "hash": "#ChatConversation"
+    },
+    {
+      "name": "ChatListView",
+      "hash": "#ChatListView"
+    },
+    {
+      "name": "ChatLoader",
+      "hash": "#ChatLoader"
+    },
+    {
+      "name": "ChatMessage",
+      "hash": "#ChatMessage"
+    },
+    {
+      "name": "ChatMessageActions",
+      "hash": "#ChatMessageActions"
+    },
+    {
+      "name": "ChatSource",
+      "hash": "#ChatSource"
+    },
+    {
+      "name": "ChatSources",
+      "hash": "#ChatSources"
+    },
+    {
+      "name": "ChatTool",
+      "hash": "#ChatTool"
+    },
+    {
+      "name": "ChatToolGroup",
+      "hash": "#ChatToolGroup"
+    },
+    {
+      "name": "ChatToolRow",
+      "hash": "#ChatToolRow"
+    },
+    {
+      "name": "CheckboxButtonGroup",
+      "hash": "#CheckboxButtonGroup"
+    },
+    {
+      "name": "CodeBlock",
+      "hash": "#CodeBlock"
+    },
+    {
+      "name": "Command",
+      "hash": "#Command"
+    },
+    {
+      "name": "ComposedChart",
+      "hash": "#ComposedChart"
+    },
+    {
+      "name": "ContextMenu",
+      "hash": "#ContextMenu"
+    },
+    {
+      "name": "DataGrid",
+      "hash": "#DataGrid"
+    },
+    {
+      "name": "DropZone",
+      "hash": "#DropZone"
+    },
+    {
+      "name": "DescriptionModal",
+      "hash": "#DescriptionModal"
+    },
+    {
+      "name": "EmojiPicker",
+      "hash": "#EmojiPicker"
+    },
+    {
+      "name": "EmojiReactionButton",
+      "hash": "#EmojiReactionButton"
+    },
+    {
+      "name": "EmptyState",
+      "hash": "#EmptyState"
+    },
+    {
+      "name": "FileTree",
+      "hash": "#FileTree"
+    },
+    {
+      "name": "FloatingToc",
+      "hash": "#FloatingToc"
+    },
+    {
+      "name": "HoloCard",
+      "hash": "#HoloCard"
+    },
+    {
+      "name": "HoverCard",
+      "hash": "#HoverCard"
+    },
+    {
+      "name": "InlineSelect",
+      "hash": "#InlineSelect"
+    },
+    {
+      "name": "ItemCard",
+      "hash": "#ItemCard"
+    },
+    {
+      "name": "ItemCardGroup",
+      "hash": "#ItemCardGroup"
+    },
+    {
+      "name": "Kanban",
+      "hash": "#Kanban"
+    },
+    {
+      "name": "KPI",
+      "hash": "#KPI"
+    },
+    {
+      "name": "KPIGroup",
+      "hash": "#KPIGroup"
+    },
+    {
+      "name": "LineChart",
+      "hash": "#LineChart"
+    },
+    {
+      "name": "ListView",
+      "hash": "#ListView"
+    },
+    {
+      "name": "LoadingState",
+      "hash": "#LoadingState"
+    },
+    {
+      "name": "Map",
+      "hash": "#Map"
+    },
+    {
+      "name": "Markdown",
+      "hash": "#Markdown"
+    },
+    {
+      "name": "NativeSelect",
+      "hash": "#NativeSelect"
+    },
+    {
+      "name": "NavGroup",
+      "hash": "#NavGroup"
+    },
+    {
+      "name": "NavGroupShowMore",
+      "hash": "#NavGroupShowMore"
+    },
+    {
+      "name": "NavItem",
+      "hash": "#NavItem"
+    },
+    {
+      "name": "NavSectionHeader",
+      "hash": "#NavSectionHeader"
+    },
+    {
+      "name": "Navbar",
+      "hash": "#Navbar"
+    },
+    {
+      "name": "NumberStepper",
+      "hash": "#NumberStepper"
+    },
+    {
+      "name": "NumberValue",
+      "hash": "#NumberValue"
+    },
+    {
+      "name": "PieChart",
+      "hash": "#PieChart"
+    },
+    {
+      "name": "PixelLoader",
+      "hash": "#PixelLoader"
+    },
+    {
+      "name": "PressableFeedback",
+      "hash": "#PressableFeedback"
+    },
+    {
+      "name": "PromptInput",
+      "hash": "#PromptInput"
+    },
+    {
+      "name": "ProgressiveBlur",
+      "hash": "#ProgressiveBlur"
+    },
+    {
+      "name": "PromptInputQueue",
+      "hash": "#PromptInputQueue"
+    },
+    {
+      "name": "PromptInputTokens",
+      "hash": "#PromptInputTokens"
+    },
+    {
+      "name": "PromptSuggestion",
+      "hash": "#PromptSuggestion"
+    },
+    {
+      "name": "RadarChart",
+      "hash": "#RadarChart"
+    },
+    {
+      "name": "RadialChart",
+      "hash": "#RadialChart"
+    },
+    {
+      "name": "RadioButtonGroup",
+      "hash": "#RadioButtonGroup"
+    },
+    {
+      "name": "Rating",
+      "hash": "#Rating"
+    },
+    {
+      "name": "Resizable",
+      "hash": "#Resizable"
+    },
+    {
+      "name": "RichTextEditor",
+      "hash": "#RichTextEditor"
+    },
+    {
+      "name": "ScheduledTask",
+      "hash": "#ScheduledTask"
+    },
+    {
+      "name": "Segment",
+      "hash": "#Segment"
+    },
+    {
+      "name": "Sheet",
+      "hash": "#Sheet"
+    },
+    {
+      "name": "Sidebar",
+      "hash": "#Sidebar"
+    },
+    {
+      "name": "Stepper",
+      "hash": "#Stepper"
+    },
+    {
+      "name": "TextShimmer",
+      "hash": "#TextShimmer"
+    },
+    {
+      "name": "Timeline",
+      "hash": "#Timeline"
+    },
+    {
+      "name": "TrendChip",
+      "hash": "#TrendChip"
+    },
+    {
+      "name": "Widget",
+      "hash": "#Widget"
+    },
+    {
+      "name": "Layout",
+      "hash": "#Layout"
+    },
+    {
+      "name": "Inputs",
+      "hash": "#Inputs"
+    },
+    {
+      "name": "Surfaces",
+      "hash": "#Surfaces"
+    }
+  ],
+  "docsIndex": "/llms.txt"
+}

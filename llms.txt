@@ -103,8 +103,10 @@
 - [AgentQuestion](/llms/cube/agent-question.md): 3 generated props.
 - [AgentStatus](/llms/cube/agent-status.md): 3 generated props.
 - [AppLayout](/llms/cube/app-layout.md): 35 generated props.
+- [ApprovalCard](/llms/cube/approval-card.md): 25 generated props.
 - [ApprovalResult](/llms/cube/approval-result.md): 6 generated props.
 - [AreaChart](/llms/cube/area-chart.md): 7 generated props.
+- [Backdrop](/llms/cube/backdrop.md): 4 generated props.
 - [BarChart](/llms/cube/bar-chart.md): 8 generated props.
 - [Carousel](/llms/cube/carousel.md): 7 generated props.
 - [CellColorPicker](/llms/cube/cell-color-picker.md): 7 generated props.
@@ -127,6 +129,7 @@
 - [ComposedChart](/llms/cube/composed-chart.md): 7 generated props.
 - [ContextMenu](/llms/cube/context-menu.md): 5 generated props.
 - [DataGrid](/llms/cube/data-grid.md): 40 generated props.
+- [DescriptionModal](/llms/cube/description-modal.md): 3 generated props.
 - [DropZone](/llms/cube/drop-zone.md): 4 generated props.
 - [EmojiPicker](/llms/cube/emoji-picker.md): 34 generated props.
 - [EmojiReactionButton](/llms/cube/emoji-reaction-button.md): 33 generated props.
@@ -157,6 +160,7 @@
 - [PieChart](/llms/cube/pie-chart.md): 5 generated props.
 - [PixelLoader](/llms/cube/pixel-loader.md): 4 generated props.
 - [PressableFeedback](/llms/cube/pressable-feedback.md): 5 generated props.
+- [ProgressiveBlur](/llms/cube/progressive-blur.md): 4 generated props.
 - [PromptInput](/llms/cube/prompt-input.md): 18 generated props.
 - [PromptSuggestion](/llms/cube/prompt-suggestion.md): 4 generated props.
 - [RadarChart](/llms/cube/radar-chart.md): 6 generated props.

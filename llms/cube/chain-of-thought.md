@@ -50,6 +50,10 @@ import { ChainOfThought } from "@bosagent/cube-ui";
 
 [`--default`](#Docs/foundations/color) [`--focus`](#Docs/foundations/color) [`--font-sans`](#Docs/foundations/color) [`--font-weight-normal`](#Docs/foundations/color) [`--foreground`](#Docs/foundations/color) [`--muted`](#Docs/foundations/color) [`--spacing`](#Docs/foundations/color) [`--text-body`](#Docs/foundations/color) [`--text-body--line-height`](#Docs/foundations/color)
 
+## Figma
+
+https://www.figma.com/design/D5ZApigd5hFmvI54TkJlAh/Cube-Design-System-for-Web?node-id=23491-73610
+
 ## 画廊
 
 [Open in gallery](#ChainOfThought)
