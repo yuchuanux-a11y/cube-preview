@@ -10,6 +10,10 @@ No git tags were found in the history available to this build.
 
 ### 2026-11
 
+- [`fb50cb7`](https://github.com/yuchuanux-a11y/cube-design-system/commit/fb50cb7) 2026-11-06 Drop the left rail when a section has no directory.
+- [`2a4723e`](https://github.com/yuchuanux-a11y/cube-design-system/commit/2a4723e) 2026-11-06 Pack the Getting Started sidebar groups from the top.
+- [`f4c3790`](https://github.com/yuchuanux-a11y/cube-design-system/commit/f4c3790) 2026-11-06 Remove leftover HeroUI branding from the preview and default theme.
+- [`6a427f1`](https://github.com/yuchuanux-a11y/cube-design-system/commit/6a427f1) 2026-11-06 Show ApprovalCard option hover, focus, and selected states.
 - [`54d2ed7`](https://github.com/yuchuanux-a11y/cube-design-system/commit/54d2ed7) 2026-11-06 Rebuild the Getting Started home as a Cube landing.
 - [`9291031`](https://github.com/yuchuanux-a11y/cube-design-system/commit/9291031) 2026-11-06 Make Introduction an overview of Cube, not a preview manual.
 - [`c72f9fa`](https://github.com/yuchuanux-a11y/cube-design-system/commit/c72f9fa) 2026-11-06 Build the preview chrome from Cube and put Button on its own page.
