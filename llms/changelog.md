@@ -10,6 +10,7 @@ No git tags were found in the history available to this build.
 
 ### 2026-11
 
+- [`b01f02e`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b01f02e) 2026-11-06 Add Cube icon folder-open-2 and use it in NavGroup.
 - [`8581e2b`](https://github.com/yuchuanux-a11y/cube-design-system/commit/8581e2b) 2026-11-06 Add the remaining Showcase screens and English titles.
 - [`3515282`](https://github.com/yuchuanux-a11y/cube-design-system/commit/3515282) 2026-11-06 Rebuild the docs header to match HeroUI chrome.
 - [`7dcd9c1`](https://github.com/yuchuanux-a11y/cube-design-system/commit/7dcd9c1) 2026-11-06 Use FolderOpen as the NavGroup stand-in for folder-open-2.

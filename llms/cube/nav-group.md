@@ -25,7 +25,7 @@ import { NavGroup } from "@bosagent/cube-ui";
 | `actionOpen` | `boolean` | 否 | `—` | Keep the trailing action visible, for example while its menu is open. |
 | `children` | `ReactNode` | 否 | `—` | Child rows. Rendered in a list when the group is expanded. |
 | `defaultExpanded` | `boolean` | 否 | `—` | — |
-| `expanded` | `boolean` | 否 | `—` | Expanded shows `folder-open` and reveals `children`. There is no selected state. |
+| `expanded` | `boolean` | 否 | `—` | Expanded shows `folder-open-2` and reveals `children`. There is no selected state. |
 | `className` | `string` | 否 | `—` | — |
 | `slot` | `string` | 否 | `—` | — |
 
