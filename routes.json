@@ -15,24 +15,24 @@
   ],
   "sections": [
     {
+      "id": "getting-started",
+      "hash": "#Docs",
+      "description": "Introduction, handbook, and showcase"
+    },
+    {
       "id": "components",
       "hash": "#ActionBar",
-      "description": "Component gallery"
+      "description": "Web component preview and usage"
     },
     {
-      "id": "pages",
-      "hash": "#Typical",
-      "description": "Typical product pages"
+      "id": "releases",
+      "hash": "#Docs/changelog",
+      "description": "Changelog"
     },
     {
-      "id": "docs",
-      "hash": "#Docs",
-      "description": "Documentation"
-    },
-    {
-      "id": "mobile",
+      "id": "native",
       "hash": "#Mobile/Button",
-      "description": "Mobile component gallery"
+      "description": "Native component preview"
     }
   ],
   "pages": [
@@ -53,366 +53,822 @@
       "hash": "#Typical/scheduled"
     }
   ],
+  "redirects": [
+    {
+      "from": "#Pages",
+      "to": "#Typical"
+    },
+    {
+      "from": "#Docs/cube",
+      "to": "#ActionBar"
+    },
+    {
+      "from": "/docs/",
+      "to": "#Docs"
+    },
+    {
+      "from": "/docs-preview/",
+      "to": "#Docs"
+    },
+    {
+      "from": "#Docs/cube/action-bar",
+      "to": "#ActionBar"
+    },
+    {
+      "from": "#Docs/cube/agent-status",
+      "to": "#AgentStatus"
+    },
+    {
+      "from": "#Docs/cube/agenda",
+      "to": "#Agenda"
+    },
+    {
+      "from": "#Docs/cube/agent-question",
+      "to": "#AgentQuestion"
+    },
+    {
+      "from": "#Docs/cube/app-layout",
+      "to": "#AppLayout"
+    },
+    {
+      "from": "#Docs/cube/approval-result",
+      "to": "#ApprovalResult"
+    },
+    {
+      "from": "#Docs/cube/approval-card",
+      "to": "#ApprovalCard"
+    },
+    {
+      "from": "#Docs/cube/area-chart",
+      "to": "#AreaChart"
+    },
+    {
+      "from": "#Docs/cube/bar-chart",
+      "to": "#BarChart"
+    },
+    {
+      "from": "#Docs/cube/backdrop",
+      "to": "#Backdrop"
+    },
+    {
+      "from": "#Docs/cube/carousel",
+      "to": "#Carousel"
+    },
+    {
+      "from": "#Docs/cube/cell-color-picker",
+      "to": "#CellColorPicker"
+    },
+    {
+      "from": "#Docs/cube/cell-select",
+      "to": "#CellSelect"
+    },
+    {
+      "from": "#Docs/cube/cell-slider",
+      "to": "#CellSlider"
+    },
+    {
+      "from": "#Docs/cube/cell-switch",
+      "to": "#CellSwitch"
+    },
+    {
+      "from": "#Docs/cube/chain-of-thought",
+      "to": "#ChainOfThought"
+    },
+    {
+      "from": "#Docs/cube/chart-tooltip",
+      "to": "#ChartTooltip"
+    },
+    {
+      "from": "#Docs/cube/chat-attachment",
+      "to": "#ChatAttachment"
+    },
+    {
+      "from": "#Docs/cube/chat-attachment",
+      "to": "#ChatAttachmentGroup"
+    },
+    {
+      "from": "#Docs/cube/chat-attachment",
+      "to": "#ChatAttachmentInput"
+    },
+    {
+      "from": "#Docs/cube/chat-conversation",
+      "to": "#ChatConversation"
+    },
+    {
+      "from": "#Docs/cube/chat-list-view",
+      "to": "#ChatListView"
+    },
+    {
+      "from": "#Docs/cube/chat-loader",
+      "to": "#ChatLoader"
+    },
+    {
+      "from": "#Docs/cube/chat-message",
+      "to": "#ChatMessage"
+    },
+    {
+      "from": "#Docs/cube/chat-message-actions",
+      "to": "#ChatMessageActions"
+    },
+    {
+      "from": "#Docs/cube/chat-source",
+      "to": "#ChatSource"
+    },
+    {
+      "from": "#Docs/cube/chat-source",
+      "to": "#ChatSources"
+    },
+    {
+      "from": "#Docs/cube/chat-tool",
+      "to": "#ChatTool"
+    },
+    {
+      "from": "#Docs/cube/chat-tool",
+      "to": "#ChatToolGroup"
+    },
+    {
+      "from": "#Docs/cube/chat-tool",
+      "to": "#ChatToolRow"
+    },
+    {
+      "from": "#Docs/cube/checkbox-button-group",
+      "to": "#CheckboxButtonGroup"
+    },
+    {
+      "from": "#Docs/cube/code-block",
+      "to": "#CodeBlock"
+    },
+    {
+      "from": "#Docs/cube/command",
+      "to": "#Command"
+    },
+    {
+      "from": "#Docs/cube/composed-chart",
+      "to": "#ComposedChart"
+    },
+    {
+      "from": "#Docs/cube/context-menu",
+      "to": "#ContextMenu"
+    },
+    {
+      "from": "#Docs/cube/data-grid",
+      "to": "#DataGrid"
+    },
+    {
+      "from": "#Docs/cube/drop-zone",
+      "to": "#DropZone"
+    },
+    {
+      "from": "#Docs/cube/description-modal",
+      "to": "#DescriptionModal"
+    },
+    {
+      "from": "#Docs/cube/emoji-picker",
+      "to": "#EmojiPicker"
+    },
+    {
+      "from": "#Docs/cube/emoji-reaction-button",
+      "to": "#EmojiReactionButton"
+    },
+    {
+      "from": "#Docs/cube/empty-state",
+      "to": "#EmptyState"
+    },
+    {
+      "from": "#Docs/cube/file-tree",
+      "to": "#FileTree"
+    },
+    {
+      "from": "#Docs/cube/floating-toc",
+      "to": "#FloatingToc"
+    },
+    {
+      "from": "#Docs/cube/holo-card",
+      "to": "#HoloCard"
+    },
+    {
+      "from": "#Docs/cube/hover-card",
+      "to": "#HoverCard"
+    },
+    {
+      "from": "#Docs/cube/inline-select",
+      "to": "#InlineSelect"
+    },
+    {
+      "from": "#Docs/cube/item-card",
+      "to": "#ItemCard"
+    },
+    {
+      "from": "#Docs/cube/item-card-group",
+      "to": "#ItemCardGroup"
+    },
+    {
+      "from": "#Docs/cube/kanban",
+      "to": "#Kanban"
+    },
+    {
+      "from": "#Docs/cube/kpi",
+      "to": "#KPI"
+    },
+    {
+      "from": "#Docs/cube/kpi-group",
+      "to": "#KPIGroup"
+    },
+    {
+      "from": "#Docs/cube/line-chart",
+      "to": "#LineChart"
+    },
+    {
+      "from": "#Docs/cube/list-view",
+      "to": "#ListView"
+    },
+    {
+      "from": "#Docs/cube/loading-state",
+      "to": "#LoadingState"
+    },
+    {
+      "from": "#Docs/cube/map",
+      "to": "#Map"
+    },
+    {
+      "from": "#Docs/cube/markdown",
+      "to": "#Markdown"
+    },
+    {
+      "from": "#Docs/cube/native-select",
+      "to": "#NativeSelect"
+    },
+    {
+      "from": "#Docs/cube/nav-group",
+      "to": "#NavGroup"
+    },
+    {
+      "from": "#Docs/cube/nav-group-show-more",
+      "to": "#NavGroupShowMore"
+    },
+    {
+      "from": "#Docs/cube/nav-item",
+      "to": "#NavItem"
+    },
+    {
+      "from": "#Docs/cube/nav-section-header",
+      "to": "#NavSectionHeader"
+    },
+    {
+      "from": "#Docs/cube/navbar",
+      "to": "#Navbar"
+    },
+    {
+      "from": "#Docs/cube/number-stepper",
+      "to": "#NumberStepper"
+    },
+    {
+      "from": "#Docs/cube/number-value",
+      "to": "#NumberValue"
+    },
+    {
+      "from": "#Docs/cube/pie-chart",
+      "to": "#PieChart"
+    },
+    {
+      "from": "#Docs/cube/pixel-loader",
+      "to": "#PixelLoader"
+    },
+    {
+      "from": "#Docs/cube/pressable-feedback",
+      "to": "#PressableFeedback"
+    },
+    {
+      "from": "#Docs/cube/prompt-input",
+      "to": "#PromptInput"
+    },
+    {
+      "from": "#Docs/cube/progressive-blur",
+      "to": "#ProgressiveBlur"
+    },
+    {
+      "from": "#Docs/cube/prompt-input",
+      "to": "#PromptInputQueue"
+    },
+    {
+      "from": "#Docs/cube/prompt-input",
+      "to": "#PromptInputTokens"
+    },
+    {
+      "from": "#Docs/cube/prompt-suggestion",
+      "to": "#PromptSuggestion"
+    },
+    {
+      "from": "#Docs/cube/radar-chart",
+      "to": "#RadarChart"
+    },
+    {
+      "from": "#Docs/cube/radial-chart",
+      "to": "#RadialChart"
+    },
+    {
+      "from": "#Docs/cube/radio-button-group",
+      "to": "#RadioButtonGroup"
+    },
+    {
+      "from": "#Docs/cube/rating",
+      "to": "#Rating"
+    },
+    {
+      "from": "#Docs/cube/resizable",
+      "to": "#Resizable"
+    },
+    {
+      "from": "#Docs/cube/rich-text-editor",
+      "to": "#RichTextEditor"
+    },
+    {
+      "from": "#Docs/cube/scheduled-task",
+      "to": "#ScheduledTask"
+    },
+    {
+      "from": "#Docs/cube/segment",
+      "to": "#Segment"
+    },
+    {
+      "from": "#Docs/cube/sheet",
+      "to": "#Sheet"
+    },
+    {
+      "from": "#Docs/cube/sidebar",
+      "to": "#Sidebar"
+    },
+    {
+      "from": "#Docs/cube/stepper",
+      "to": "#Stepper"
+    },
+    {
+      "from": "#Docs/cube/text-shimmer",
+      "to": "#TextShimmer"
+    },
+    {
+      "from": "#Docs/cube/timeline",
+      "to": "#Timeline"
+    },
+    {
+      "from": "#Docs/cube/trend-chip",
+      "to": "#TrendChip"
+    },
+    {
+      "from": "#Docs/cube/widget",
+      "to": "#Widget"
+    }
+  ],
   "components": [
     {
       "name": "ActionBar",
-      "hash": "#ActionBar"
+      "hash": "#ActionBar",
+      "docs": "#Docs/cube/action-bar"
     },
     {
       "name": "AgentStatus",
-      "hash": "#AgentStatus"
+      "hash": "#AgentStatus",
+      "docs": "#Docs/cube/agent-status"
     },
     {
       "name": "Agenda",
-      "hash": "#Agenda"
+      "hash": "#Agenda",
+      "docs": "#Docs/cube/agenda"
     },
     {
       "name": "AgentQuestion",
-      "hash": "#AgentQuestion"
+      "hash": "#AgentQuestion",
+      "docs": "#Docs/cube/agent-question"
     },
     {
       "name": "AppLayout",
-      "hash": "#AppLayout"
+      "hash": "#AppLayout",
+      "docs": "#Docs/cube/app-layout"
     },
     {
       "name": "ApprovalResult",
-      "hash": "#ApprovalResult"
+      "hash": "#ApprovalResult",
+      "docs": "#Docs/cube/approval-result"
     },
     {
       "name": "ApprovalCard",
-      "hash": "#ApprovalCard"
+      "hash": "#ApprovalCard",
+      "docs": "#Docs/cube/approval-card"
     },
     {
       "name": "AreaChart",
-      "hash": "#AreaChart"
+      "hash": "#AreaChart",
+      "docs": "#Docs/cube/area-chart"
     },
     {
       "name": "BarChart",
-      "hash": "#BarChart"
+      "hash": "#BarChart",
+      "docs": "#Docs/cube/bar-chart"
     },
     {
       "name": "Backdrop",
-      "hash": "#Backdrop"
+      "hash": "#Backdrop",
+      "docs": "#Docs/cube/backdrop"
     },
     {
       "name": "Carousel",
-      "hash": "#Carousel"
+      "hash": "#Carousel",
+      "docs": "#Docs/cube/carousel"
     },
     {
       "name": "CellColorPicker",
-      "hash": "#CellColorPicker"
+      "hash": "#CellColorPicker",
+      "docs": "#Docs/cube/cell-color-picker"
     },
     {
       "name": "CellSelect",
-      "hash": "#CellSelect"
+      "hash": "#CellSelect",
+      "docs": "#Docs/cube/cell-select"
     },
     {
       "name": "CellSlider",
-      "hash": "#CellSlider"
+      "hash": "#CellSlider",
+      "docs": "#Docs/cube/cell-slider"
     },
     {
       "name": "CellSwitch",
-      "hash": "#CellSwitch"
+      "hash": "#CellSwitch",
+      "docs": "#Docs/cube/cell-switch"
     },
     {
       "name": "ChainOfThought",
-      "hash": "#ChainOfThought"
+      "hash": "#ChainOfThought",
+      "docs": "#Docs/cube/chain-of-thought"
     },
     {
       "name": "ChartTooltip",
-      "hash": "#ChartTooltip"
+      "hash": "#ChartTooltip",
+      "docs": "#Docs/cube/chart-tooltip"
     },
     {
       "name": "ChatAttachment",
-      "hash": "#ChatAttachment"
+      "hash": "#ChatAttachment",
+      "docs": "#Docs/cube/chat-attachment"
     },
     {
       "name": "ChatAttachmentGroup",
-      "hash": "#ChatAttachmentGroup"
+      "hash": "#ChatAttachmentGroup",
+      "docs": "#Docs/cube/chat-attachment"
     },
     {
       "name": "ChatAttachmentInput",
-      "hash": "#ChatAttachmentInput"
+      "hash": "#ChatAttachmentInput",
+      "docs": "#Docs/cube/chat-attachment"
     },
     {
       "name": "ChatConversation",
-      "hash": "#ChatConversation"
+      "hash": "#ChatConversation",
+      "docs": "#Docs/cube/chat-conversation"
     },
     {
       "name": "ChatListView",
-      "hash": "#ChatListView"
+      "hash": "#ChatListView",
+      "docs": "#Docs/cube/chat-list-view"
     },
     {
       "name": "ChatLoader",
-      "hash": "#ChatLoader"
+      "hash": "#ChatLoader",
+      "docs": "#Docs/cube/chat-loader"
     },
     {
       "name": "ChatMessage",
-      "hash": "#ChatMessage"
+      "hash": "#ChatMessage",
+      "docs": "#Docs/cube/chat-message"
     },
     {
       "name": "ChatMessageActions",
-      "hash": "#ChatMessageActions"
+      "hash": "#ChatMessageActions",
+      "docs": "#Docs/cube/chat-message-actions"
     },
     {
       "name": "ChatSource",
-      "hash": "#ChatSource"
+      "hash": "#ChatSource",
+      "docs": "#Docs/cube/chat-source"
     },
     {
       "name": "ChatSources",
-      "hash": "#ChatSources"
+      "hash": "#ChatSources",
+      "docs": "#Docs/cube/chat-source"
     },
     {
       "name": "ChatTool",
-      "hash": "#ChatTool"
+      "hash": "#ChatTool",
+      "docs": "#Docs/cube/chat-tool"
     },
     {
       "name": "ChatToolGroup",
-      "hash": "#ChatToolGroup"
+      "hash": "#ChatToolGroup",
+      "docs": "#Docs/cube/chat-tool"
     },
     {
       "name": "ChatToolRow",
-      "hash": "#ChatToolRow"
+      "hash": "#ChatToolRow",
+      "docs": "#Docs/cube/chat-tool"
     },
     {
       "name": "CheckboxButtonGroup",
-      "hash": "#CheckboxButtonGroup"
+      "hash": "#CheckboxButtonGroup",
+      "docs": "#Docs/cube/checkbox-button-group"
     },
     {
       "name": "CodeBlock",
-      "hash": "#CodeBlock"
+      "hash": "#CodeBlock",
+      "docs": "#Docs/cube/code-block"
     },
     {
       "name": "Command",
-      "hash": "#Command"
+      "hash": "#Command",
+      "docs": "#Docs/cube/command"
     },
     {
       "name": "ComposedChart",
-      "hash": "#ComposedChart"
+      "hash": "#ComposedChart",
+      "docs": "#Docs/cube/composed-chart"
     },
     {
       "name": "ContextMenu",
-      "hash": "#ContextMenu"
+      "hash": "#ContextMenu",
+      "docs": "#Docs/cube/context-menu"
     },
     {
       "name": "DataGrid",
-      "hash": "#DataGrid"
+      "hash": "#DataGrid",
+      "docs": "#Docs/cube/data-grid"
     },
     {
       "name": "DropZone",
-      "hash": "#DropZone"
+      "hash": "#DropZone",
+      "docs": "#Docs/cube/drop-zone"
     },
     {
       "name": "DescriptionModal",
-      "hash": "#DescriptionModal"
+      "hash": "#DescriptionModal",
+      "docs": "#Docs/cube/description-modal"
     },
     {
       "name": "EmojiPicker",
-      "hash": "#EmojiPicker"
+      "hash": "#EmojiPicker",
+      "docs": "#Docs/cube/emoji-picker"
     },
     {
       "name": "EmojiReactionButton",
-      "hash": "#EmojiReactionButton"
+      "hash": "#EmojiReactionButton",
+      "docs": "#Docs/cube/emoji-reaction-button"
     },
     {
       "name": "EmptyState",
-      "hash": "#EmptyState"
+      "hash": "#EmptyState",
+      "docs": "#Docs/cube/empty-state"
     },
     {
       "name": "FileTree",
-      "hash": "#FileTree"
+      "hash": "#FileTree",
+      "docs": "#Docs/cube/file-tree"
     },
     {
       "name": "FloatingToc",
-      "hash": "#FloatingToc"
+      "hash": "#FloatingToc",
+      "docs": "#Docs/cube/floating-toc"
     },
     {
       "name": "HoloCard",
-      "hash": "#HoloCard"
+      "hash": "#HoloCard",
+      "docs": "#Docs/cube/holo-card"
     },
     {
       "name": "HoverCard",
-      "hash": "#HoverCard"
+      "hash": "#HoverCard",
+      "docs": "#Docs/cube/hover-card"
     },
     {
       "name": "InlineSelect",
-      "hash": "#InlineSelect"
+      "hash": "#InlineSelect",
+      "docs": "#Docs/cube/inline-select"
     },
     {
       "name": "ItemCard",
-      "hash": "#ItemCard"
+      "hash": "#ItemCard",
+      "docs": "#Docs/cube/item-card"
     },
     {
       "name": "ItemCardGroup",
-      "hash": "#ItemCardGroup"
+      "hash": "#ItemCardGroup",
+      "docs": "#Docs/cube/item-card-group"
     },
     {
       "name": "Kanban",
-      "hash": "#Kanban"
+      "hash": "#Kanban",
+      "docs": "#Docs/cube/kanban"
     },
     {
       "name": "KPI",
-      "hash": "#KPI"
+      "hash": "#KPI",
+      "docs": "#Docs/cube/kpi"
     },
     {
       "name": "KPIGroup",
-      "hash": "#KPIGroup"
+      "hash": "#KPIGroup",
+      "docs": "#Docs/cube/kpi-group"
     },
     {
       "name": "LineChart",
-      "hash": "#LineChart"
+      "hash": "#LineChart",
+      "docs": "#Docs/cube/line-chart"
     },
     {
       "name": "ListView",
-      "hash": "#ListView"
+      "hash": "#ListView",
+      "docs": "#Docs/cube/list-view"
     },
     {
       "name": "LoadingState",
-      "hash": "#LoadingState"
+      "hash": "#LoadingState",
+      "docs": "#Docs/cube/loading-state"
     },
     {
       "name": "Map",
-      "hash": "#Map"
+      "hash": "#Map",
+      "docs": "#Docs/cube/map"
     },
     {
       "name": "Markdown",
-      "hash": "#Markdown"
+      "hash": "#Markdown",
+      "docs": "#Docs/cube/markdown"
     },
     {
       "name": "NativeSelect",
-      "hash": "#NativeSelect"
+      "hash": "#NativeSelect",
+      "docs": "#Docs/cube/native-select"
     },
     {
       "name": "NavGroup",
-      "hash": "#NavGroup"
+      "hash": "#NavGroup",
+      "docs": "#Docs/cube/nav-group"
     },
     {
       "name": "NavGroupShowMore",
-      "hash": "#NavGroupShowMore"
+      "hash": "#NavGroupShowMore",
+      "docs": "#Docs/cube/nav-group-show-more"
     },
     {
       "name": "NavItem",
-      "hash": "#NavItem"
+      "hash": "#NavItem",
+      "docs": "#Docs/cube/nav-item"
     },
     {
       "name": "NavSectionHeader",
-      "hash": "#NavSectionHeader"
+      "hash": "#NavSectionHeader",
+      "docs": "#Docs/cube/nav-section-header"
     },
     {
       "name": "Navbar",
-      "hash": "#Navbar"
+      "hash": "#Navbar",
+      "docs": "#Docs/cube/navbar"
     },
     {
       "name": "NumberStepper",
-      "hash": "#NumberStepper"
+      "hash": "#NumberStepper",
+      "docs": "#Docs/cube/number-stepper"
     },
     {
       "name": "NumberValue",
-      "hash": "#NumberValue"
+      "hash": "#NumberValue",
+      "docs": "#Docs/cube/number-value"
     },
     {
       "name": "PieChart",
-      "hash": "#PieChart"
+      "hash": "#PieChart",
+      "docs": "#Docs/cube/pie-chart"
     },
     {
       "name": "PixelLoader",
-      "hash": "#PixelLoader"
+      "hash": "#PixelLoader",
+      "docs": "#Docs/cube/pixel-loader"
     },
     {
       "name": "PressableFeedback",
-      "hash": "#PressableFeedback"
+      "hash": "#PressableFeedback",
+      "docs": "#Docs/cube/pressable-feedback"
     },
     {
       "name": "PromptInput",
-      "hash": "#PromptInput"
+      "hash": "#PromptInput",
+      "docs": "#Docs/cube/prompt-input"
     },
     {
       "name": "ProgressiveBlur",
-      "hash": "#ProgressiveBlur"
+      "hash": "#ProgressiveBlur",
+      "docs": "#Docs/cube/progressive-blur"
     },
     {
       "name": "PromptInputQueue",
-      "hash": "#PromptInputQueue"
+      "hash": "#PromptInputQueue",
+      "docs": "#Docs/cube/prompt-input"
     },
     {
       "name": "PromptInputTokens",
-      "hash": "#PromptInputTokens"
+      "hash": "#PromptInputTokens",
+      "docs": "#Docs/cube/prompt-input"
     },
     {
       "name": "PromptSuggestion",
-      "hash": "#PromptSuggestion"
+      "hash": "#PromptSuggestion",
+      "docs": "#Docs/cube/prompt-suggestion"
     },
     {
       "name": "RadarChart",
-      "hash": "#RadarChart"
+      "hash": "#RadarChart",
+      "docs": "#Docs/cube/radar-chart"
     },
     {
       "name": "RadialChart",
-      "hash": "#RadialChart"
+      "hash": "#RadialChart",
+      "docs": "#Docs/cube/radial-chart"
     },
     {
       "name": "RadioButtonGroup",
-      "hash": "#RadioButtonGroup"
+      "hash": "#RadioButtonGroup",
+      "docs": "#Docs/cube/radio-button-group"
     },
     {
       "name": "Rating",
-      "hash": "#Rating"
+      "hash": "#Rating",
+      "docs": "#Docs/cube/rating"
     },
     {
       "name": "Resizable",
-      "hash": "#Resizable"
+      "hash": "#Resizable",
+      "docs": "#Docs/cube/resizable"
     },
     {
       "name": "RichTextEditor",
-      "hash": "#RichTextEditor"
+      "hash": "#RichTextEditor",
+      "docs": "#Docs/cube/rich-text-editor"
     },
     {
       "name": "ScheduledTask",
-      "hash": "#ScheduledTask"
+      "hash": "#ScheduledTask",
+      "docs": "#Docs/cube/scheduled-task"
     },
     {
       "name": "Segment",
-      "hash": "#Segment"
+      "hash": "#Segment",
+      "docs": "#Docs/cube/segment"
     },
     {
       "name": "Sheet",
-      "hash": "#Sheet"
+      "hash": "#Sheet",
+      "docs": "#Docs/cube/sheet"
     },
     {
       "name": "Sidebar",
-      "hash": "#Sidebar"
+      "hash": "#Sidebar",
+      "docs": "#Docs/cube/sidebar"
     },
     {
       "name": "Stepper",
-      "hash": "#Stepper"
+      "hash": "#Stepper",
+      "docs": "#Docs/cube/stepper"
     },
     {
       "name": "TextShimmer",
-      "hash": "#TextShimmer"
+      "hash": "#TextShimmer",
+      "docs": "#Docs/cube/text-shimmer"
     },
     {
       "name": "Timeline",
-      "hash": "#Timeline"
+      "hash": "#Timeline",
+      "docs": "#Docs/cube/timeline"
     },
     {
       "name": "TrendChip",
-      "hash": "#TrendChip"
+      "hash": "#TrendChip",
+      "docs": "#Docs/cube/trend-chip"
     },
     {
       "name": "Widget",
-      "hash": "#Widget"
+      "hash": "#Widget",
+      "docs": "#Docs/cube/widget"
     },
     {
       "name": "Layout",
-      "hash": "#Layout"
+      "hash": "#Layout",
+      "docs": null
     },
     {
       "name": "Inputs",
-      "hash": "#Inputs"
+      "hash": "#Inputs",
+      "docs": null
     },
     {
       "name": "Surfaces",
-      "hash": "#Surfaces"
+      "hash": "#Surfaces",
+      "docs": null
     }
   ],
   "docsIndex": "/llms.txt"
