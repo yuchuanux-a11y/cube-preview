@@ -417,6 +417,298 @@
     {
       "from": "#Docs/cube/widget",
       "to": "#Widget"
+    },
+    {
+      "from": "#Docs/foundation/accordion",
+      "to": "#Accordion"
+    },
+    {
+      "from": "#Docs/foundation/alert",
+      "to": "#Alert"
+    },
+    {
+      "from": "#Docs/foundation/alert-dialog",
+      "to": "#AlertDialog"
+    },
+    {
+      "from": "#Docs/foundation/autocomplete",
+      "to": "#Autocomplete"
+    },
+    {
+      "from": "#Docs/foundation/avatar",
+      "to": "#Avatar"
+    },
+    {
+      "from": "#Docs/foundation/avatar-group",
+      "to": "#AvatarGroup"
+    },
+    {
+      "from": "#Docs/foundation/badge",
+      "to": "#Badge"
+    },
+    {
+      "from": "#Docs/foundation/breadcrumbs",
+      "to": "#Breadcrumbs"
+    },
+    {
+      "from": "#Docs/foundation/button",
+      "to": "#Button"
+    },
+    {
+      "from": "#Docs/foundation/button-group",
+      "to": "#ButtonGroup"
+    },
+    {
+      "from": "#Docs/foundation/calendar",
+      "to": "#Calendar"
+    },
+    {
+      "from": "#Docs/foundation/card",
+      "to": "#Card"
+    },
+    {
+      "from": "#Docs/foundation/checkbox",
+      "to": "#Checkbox"
+    },
+    {
+      "from": "#Docs/foundation/checkbox-group",
+      "to": "#CheckboxGroup"
+    },
+    {
+      "from": "#Docs/foundation/chip",
+      "to": "#Chip"
+    },
+    {
+      "from": "#Docs/foundation/close-button",
+      "to": "#CloseButton"
+    },
+    {
+      "from": "#Docs/foundation/color-area",
+      "to": "#ColorArea"
+    },
+    {
+      "from": "#Docs/foundation/color-field",
+      "to": "#ColorField"
+    },
+    {
+      "from": "#Docs/foundation/color-picker",
+      "to": "#ColorPicker"
+    },
+    {
+      "from": "#Docs/foundation/color-slider",
+      "to": "#ColorSlider"
+    },
+    {
+      "from": "#Docs/foundation/color-swatch",
+      "to": "#ColorSwatch"
+    },
+    {
+      "from": "#Docs/foundation/color-swatch-picker",
+      "to": "#ColorSwatchPicker"
+    },
+    {
+      "from": "#Docs/foundation/combo-box",
+      "to": "#ComboBox"
+    },
+    {
+      "from": "#Docs/foundation/date-field",
+      "to": "#DateField"
+    },
+    {
+      "from": "#Docs/foundation/date-picker",
+      "to": "#DatePicker"
+    },
+    {
+      "from": "#Docs/foundation/date-range-picker",
+      "to": "#DateRangePicker"
+    },
+    {
+      "from": "#Docs/foundation/description",
+      "to": "#Description"
+    },
+    {
+      "from": "#Docs/foundation/disclosure",
+      "to": "#Disclosure"
+    },
+    {
+      "from": "#Docs/foundation/disclosure-group",
+      "to": "#DisclosureGroup"
+    },
+    {
+      "from": "#Docs/foundation/drawer",
+      "to": "#Drawer"
+    },
+    {
+      "from": "#Docs/foundation/dropdown",
+      "to": "#Dropdown"
+    },
+    {
+      "from": "#Docs/foundation/error-message",
+      "to": "#ErrorMessage"
+    },
+    {
+      "from": "#Docs/foundation/field-error",
+      "to": "#FieldError"
+    },
+    {
+      "from": "#Docs/foundation/fieldset",
+      "to": "#Fieldset"
+    },
+    {
+      "from": "#Docs/foundation/form",
+      "to": "#Form"
+    },
+    {
+      "from": "#Docs/foundation/input",
+      "to": "#Input"
+    },
+    {
+      "from": "#Docs/foundation/input-group",
+      "to": "#InputGroup"
+    },
+    {
+      "from": "#Docs/foundation/input-otp",
+      "to": "#InputOTP"
+    },
+    {
+      "from": "#Docs/foundation/kbd",
+      "to": "#Kbd"
+    },
+    {
+      "from": "#Docs/foundation/label",
+      "to": "#Label"
+    },
+    {
+      "from": "#Docs/foundation/link",
+      "to": "#Link"
+    },
+    {
+      "from": "#Docs/foundation/list-box",
+      "to": "#ListBox"
+    },
+    {
+      "from": "#Docs/foundation/meter",
+      "to": "#Meter"
+    },
+    {
+      "from": "#Docs/foundation/modal",
+      "to": "#Modal"
+    },
+    {
+      "from": "#Docs/foundation/number-field",
+      "to": "#NumberField"
+    },
+    {
+      "from": "#Docs/foundation/pagination",
+      "to": "#Pagination"
+    },
+    {
+      "from": "#Docs/foundation/popover",
+      "to": "#Popover"
+    },
+    {
+      "from": "#Docs/foundation/progress-bar",
+      "to": "#ProgressBar"
+    },
+    {
+      "from": "#Docs/foundation/progress-circle",
+      "to": "#ProgressCircle"
+    },
+    {
+      "from": "#Docs/foundation/radio",
+      "to": "#Radio"
+    },
+    {
+      "from": "#Docs/foundation/radio-group",
+      "to": "#RadioGroup"
+    },
+    {
+      "from": "#Docs/foundation/range-calendar",
+      "to": "#RangeCalendar"
+    },
+    {
+      "from": "#Docs/foundation/scroll-shadow",
+      "to": "#ScrollShadow"
+    },
+    {
+      "from": "#Docs/foundation/search-field",
+      "to": "#SearchField"
+    },
+    {
+      "from": "#Docs/foundation/select",
+      "to": "#Select"
+    },
+    {
+      "from": "#Docs/foundation/separator",
+      "to": "#Separator"
+    },
+    {
+      "from": "#Docs/foundation/skeleton",
+      "to": "#Skeleton"
+    },
+    {
+      "from": "#Docs/foundation/slider",
+      "to": "#Slider"
+    },
+    {
+      "from": "#Docs/foundation/spinner",
+      "to": "#Spinner"
+    },
+    {
+      "from": "#Docs/foundation/surface",
+      "to": "#Surface"
+    },
+    {
+      "from": "#Docs/foundation/switch",
+      "to": "#Switch"
+    },
+    {
+      "from": "#Docs/foundation/table",
+      "to": "#Table"
+    },
+    {
+      "from": "#Docs/foundation/tabs",
+      "to": "#Tabs"
+    },
+    {
+      "from": "#Docs/foundation/tag-group",
+      "to": "#TagGroup"
+    },
+    {
+      "from": "#Docs/foundation/text-area",
+      "to": "#TextArea"
+    },
+    {
+      "from": "#Docs/foundation/text-field",
+      "to": "#TextField"
+    },
+    {
+      "from": "#Docs/foundation/time-field",
+      "to": "#TimeField"
+    },
+    {
+      "from": "#Docs/foundation/toast",
+      "to": "#Toast"
+    },
+    {
+      "from": "#Docs/foundation/toggle-button",
+      "to": "#ToggleButton"
+    },
+    {
+      "from": "#Docs/foundation/toggle-button-group",
+      "to": "#ToggleButtonGroup"
+    },
+    {
+      "from": "#Docs/foundation/toolbar",
+      "to": "#Toolbar"
+    },
+    {
+      "from": "#Docs/foundation/tooltip",
+      "to": "#Tooltip"
+    },
+    {
+      "from": "#Docs/foundation/typography",
+      "to": "#Typography"
     }
   ],
   "components": [

@@ -1,19 +1,15 @@
 # Cube Design System
 
 
-Cube is the design system behind the product. This preview is where you try a component, read how to use it, and check the same screen in light or dark.
+Cube is the design system for BosAgent. It is one set of components, color, type, and surfaces, shared by the product and by this preview.
 
-## Start here
+Web components come from Cube and from the HeroUI primitives Cube themes. Foundations record the tokens those components use: color, type, spacing, radius, shadow, border, motion, and theme. Native is the same system on the phone, switched from the header rather than a separate site.
 
-- [Components](#ActionBar) opens a live preview, then the usage and props for that component.
-- [Foundations](#Docs/foundations) covers color, type, spacing, and the other shared rules.
-- [Showcase](#Typical) is a set of product screens built from those components.
-- [Releases](#Docs/changelog) is the record of what shipped.
+This preview shows the current public version. Change version or theme and the page you are on stays put.
 
-## Platforms
+## In this preview
 
-**Web** is the default catalog. **Native** switches the same header to the phone catalog when you want to preview a component there. A narrow browser window is not a substitute for a device.
-
-## Versions
-
-**Version** sits next to the Cube logo. Current is the public default. Previous published keeps a record of the 28 Oct 2026 release. The theme control next to search switches light and dark without leaving the page.
+- [Components](#ActionBar) are the live library, each with its usage and props.
+- [Foundations](#Docs/foundations) are the tokens behind those components.
+- [Showcase](#Typical) is product screens built from the library.
+- [Releases](#Docs/changelog) records what shipped.

@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{D as t,h as n}from"./index-DYAP26k4.js";var r=e();function i(){return(0,r.jsxs)(n,{className:`w-full max-w-xs`,defaultValue:30,children:[(0,r.jsx)(t,{children:`Volume`}),(0,r.jsx)(n.Output,{}),(0,r.jsxs)(n.Track,{children:[(0,r.jsx)(n.Fill,{}),(0,r.jsx)(n.Thumb,{})]})]})}export{i as Default,i as Preview};
