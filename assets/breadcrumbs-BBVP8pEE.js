@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{Vt as t}from"./index-BXVQ4l3w.js";var n=e();function r(){return(0,n.jsxs)(t,{children:[(0,n.jsx)(t.Item,{href:`#`,children:`Home`}),(0,n.jsx)(t.Item,{href:`#`,children:`Products`}),(0,n.jsx)(t.Item,{href:`#`,children:`Electronics`}),(0,n.jsx)(t.Item,{children:`Laptop`})]})}export{r as Preview};
