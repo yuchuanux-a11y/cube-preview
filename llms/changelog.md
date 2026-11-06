@@ -10,6 +10,7 @@ No git tags were found in the history available to this build.
 
 ### 2026-11
 
+- [`7dcd9c1`](https://github.com/yuchuanux-a11y/cube-design-system/commit/7dcd9c1) 2026-11-06 Use FolderOpen as the NavGroup stand-in for folder-open-2.
 - [`3b08f3f`](https://github.com/yuchuanux-a11y/cube-design-system/commit/3b08f3f) 2026-11-06 Sync confirmed typical pages and the approval checkbox.
 - [`29560e6`](https://github.com/yuchuanux-a11y/cube-design-system/commit/29560e6) 2026-11-06 Give the docs rail Disclosure motion and a filled homepage.
 - [`fb50cb7`](https://github.com/yuchuanux-a11y/cube-design-system/commit/fb50cb7) 2026-11-06 Drop the left rail when a section has no directory.

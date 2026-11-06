@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{k as t}from"./index-C-Q1anr0.js";var n=e();function r(){return(0,n.jsx)(t,{"aria-label":`Name`,className:`w-64`,placeholder:`Enter your name`})}export{r as Basic,r as Preview};
