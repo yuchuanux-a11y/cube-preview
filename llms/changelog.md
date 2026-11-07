@@ -10,6 +10,7 @@ No git tags were found in the history available to this build.
 
 ### 2026-11
 
+- [`c593d18`](https://github.com/yuchuanux-a11y/cube-design-system/commit/c593d18) 2026-11-07 Fix theme token and approval step preview
 - [`213b9c8`](https://github.com/yuchuanux-a11y/cube-design-system/commit/213b9c8) 2026-11-07 Translate preview guidance and deduplicate sidebar pins
 - [`b01f02e`](https://github.com/yuchuanux-a11y/cube-design-system/commit/b01f02e) 2026-11-06 Add Cube icon folder-open-2 and use it in NavGroup.
 - [`8581e2b`](https://github.com/yuchuanux-a11y/cube-design-system/commit/8581e2b) 2026-11-06 Add the remaining Showcase screens and English titles.

@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{C as t,D as n}from"./index-BITB5biv.js";var r=e();function i(){return(0,r.jsxs)(t,{"aria-label":`Loading`,className:`w-64`,value:60,children:[(0,r.jsx)(n,{children:`Loading`}),(0,r.jsx)(t.Output,{}),(0,r.jsx)(t.Track,{children:(0,r.jsx)(t.Fill,{})})]})}export{i as Basic,i as Preview};

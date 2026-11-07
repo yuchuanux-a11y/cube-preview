@@ -1,1 +1,0 @@
-import{i as e}from"./index-ucv-8pmB.js";export{e as Mermaid};
