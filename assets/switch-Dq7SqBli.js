@@ -1,1 +1,0 @@
-import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{p as t}from"./index-B7O9oHX9.js";var n=e();function r(){return(0,n.jsx)(t,{children:(0,n.jsxs)(t.Content,{children:[(0,n.jsx)(t.Control,{children:(0,n.jsx)(t.Thumb,{})}),`Enable notifications`]})})}export{r as Basic,r as Preview};

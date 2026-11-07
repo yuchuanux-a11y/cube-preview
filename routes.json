@@ -79,6 +79,14 @@
       "to": "#AgentStatus"
     },
     {
+      "from": "#Docs/cube/agent-step",
+      "to": "#AgentStep"
+    },
+    {
+      "from": "#Docs/cube/agent-step-group",
+      "to": "#AgentStepGroup"
+    },
+    {
       "from": "#Docs/cube/agenda",
       "to": "#Agenda"
     },
@@ -295,6 +303,10 @@
       "to": "#Markdown"
     },
     {
+      "from": "#Docs/cube/markdown",
+      "to": "#StreamMarkdown"
+    },
+    {
       "from": "#Docs/cube/native-select",
       "to": "#NativeSelect"
     },
@@ -417,6 +429,14 @@
     {
       "from": "#Docs/cube/widget",
       "to": "#Widget"
+    },
+    {
+      "from": "#Docs/cube/agent-step",
+      "to": "#AgentStep"
+    },
+    {
+      "from": "#Docs/cube/agent-step-group",
+      "to": "#AgentStepGroup"
     },
     {
       "from": "#Docs/foundation/accordion",
@@ -723,6 +743,16 @@
       "docs": "#Docs/cube/agent-status"
     },
     {
+      "name": "AgentStep",
+      "hash": "#AgentStep",
+      "docs": "#Docs/cube/agent-step"
+    },
+    {
+      "name": "AgentStepGroup",
+      "hash": "#AgentStepGroup",
+      "docs": "#Docs/cube/agent-step-group"
+    },
+    {
       "name": "Agenda",
       "hash": "#Agenda",
       "docs": "#Docs/cube/agenda"
@@ -993,6 +1023,11 @@
       "docs": "#Docs/cube/markdown"
     },
     {
+      "name": "StreamMarkdown",
+      "hash": "#StreamMarkdown",
+      "docs": "#Docs/cube/markdown"
+    },
+    {
       "name": "NativeSelect",
       "hash": "#NativeSelect",
       "docs": "#Docs/cube/native-select"
@@ -1146,6 +1181,16 @@
       "name": "Widget",
       "hash": "#Widget",
       "docs": "#Docs/cube/widget"
+    },
+    {
+      "name": "AgentStep",
+      "hash": "#AgentStep",
+      "docs": "#Docs/cube/agent-step"
+    },
+    {
+      "name": "AgentStepGroup",
+      "hash": "#AgentStepGroup",
+      "docs": "#Docs/cube/agent-step-group"
     },
     {
       "name": "Layout",

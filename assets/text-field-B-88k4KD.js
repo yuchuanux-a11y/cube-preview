@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{D as t,c as n,k as r}from"./index-DzUORQHf.js";var i=e();function a(){return(0,i.jsxs)(n,{className:`w-full max-w-64`,name:`email`,type:`email`,children:[(0,i.jsx)(t,{children:`Email`}),(0,i.jsx)(r,{placeholder:`Enter your email`})]})}export{a as Basic,a as Preview};
