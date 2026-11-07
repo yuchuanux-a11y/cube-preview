@@ -1,7 +1,7 @@
 {
-  "sourceRevision": "9a97b83491316f8feba45283c7988f76d79f83bd",
+  "sourceRevision": "dbc3fa567d066757a497723ac63202d098d19789",
   "sourceBranch": "cursor/unify-preview-docs-df1a",
-  "builtAt": "2026-11-07T04:08:33Z",
+  "builtAt": "2026-11-07T10:37:42Z",
   "publicPreview": true,
   "base": "/cube-preview/",
   "pr": 23,
