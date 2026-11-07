@@ -1,10 +1,10 @@
 {
-  "sourceRevision": "b01f02edb1eb82cd33dd2cc036a5c7b1553d07c5",
+  "sourceRevision": "213b9c8ced06f4dacb4bb56a12e58af223973cd3",
   "sourceBranch": "cursor/unify-preview-docs-df1a",
-  "builtAt": "2026-11-06T23:58:56Z",
+  "builtAt": "2026-11-07T01:12:19Z",
   "publicPreview": true,
   "base": "/cube-preview/",
   "pr": 23,
-  "build": "preview:build",
+  "build": "example:build",
   "unified": true
 }
