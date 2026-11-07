@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{Ht as t}from"./index-V4dp83CX.js";var n=e();function r(){return(0,n.jsxs)(t,{href:`#`,children:[`Call to action`,(0,n.jsx)(t.Icon,{})]})}export{r as LinkBasic,r as Preview};

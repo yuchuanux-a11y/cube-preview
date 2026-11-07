@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Bzw2jH9X.js";import{m as t}from"./index-V4dp83CX.js";var n=e();function r(){return(0,n.jsx)(`div`,{className:`flex items-center gap-4`,children:(0,n.jsx)(t,{})})}export{r as Preview,r as SpinnerBasic};
